@@ -1,0 +1,2334 @@
+callLog __ 2018-11-27 08:59:51:263__!!Service Started!!
+callLog __ 2018-11-27 08:59:51:890__Transaction Received from Db
+callLog __ 2018-11-27 08:59:52:668__Transactions Received from Bitcoin Server
+callLog __ 2018-11-27 08:59:52:670__Total Number of items to add 3
+callLog __ 2018-11-27 08:59:52:671__Added to BTC Transactions: 
+callLog __ 2018-11-27 08:59:52:714__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-27 08:59:52:724__Added to BTC Transactions: 
+callLog __ 2018-11-27 08:59:52:737__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-27 08:59:52:740__Added to BTC Transactions: 
+callLog __ 2018-11-27 08:59:52:750__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-27 08:59:52:753__!!Service Completed!!
+callLog __ 2018-11-27 09:12:04:060__!!Service Started!!
+callLog __ 2018-11-27 09:12:04:486__Transaction Received from Db
+callLog __ 2018-11-27 09:12:05:268__Transactions Received from Bitcoin Server
+callLog __ 2018-11-27 09:12:05:269__Total Number of items to add 0
+callLog __ 2018-11-27 09:12:05:270__!!Service Completed!!
+callLog __ 2018-11-27 09:12:41:975__!!Service Started!!
+callLog __ 2018-11-27 09:12:42:228__Transaction Received from Db
+callLog __ 2018-11-27 09:12:42:937__Transactions Received from Bitcoin Server
+callLog __ 2018-11-27 09:12:42:939__Total Number of items to add 11
+callLog __ 2018-11-27 09:12:42:940__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:12:43:020__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-27 09:12:43:032__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:12:43:048__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:12:43:051__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:12:43:057__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:12:43:058__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:12:43:063__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:12:43:064__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:12:43:068__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:12:43:070__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:12:43:074__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:12:43:075__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:12:43:080__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-27 09:12:43:089__User Wallet Not Null, UID: 0 UserWalletId: 215
+callLog __ 2018-11-27 09:12:43:090__Transaction Type: receive
+callLog __ 2018-11-27 09:12:43:090__Transaction Amount: 1E-05
+AutomateBitCoin __ 2018-11-27 09:12:43:097__MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'biomatricsdb.user_wallet_transaction' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(MySqlConnection connection, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1106
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1015
+   at BtcSync.Repository.TransactionRepository.AddUserWalletTransaction(UserWalletTransaction uwTransaction) in E:\Projects\BitcoinService\BtcSync\BtcSync\Repository\TransactionRepository.cs:line 108
+   at BtcSync.Program.<>c__DisplayClass2_0.<AutomateBitCoin>b__0(BitCoinTransaction x) in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 115
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at BtcSync.Program.AutomateBitCoin() in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 70
+callLog __ 2018-11-27 09:13:58:062__!!Service Started!!
+callLog __ 2018-11-27 09:13:58:447__Transaction Received from Db
+callLog __ 2018-11-27 09:13:59:220__Transactions Received from Bitcoin Server
+callLog __ 2018-11-27 09:13:59:221__Total Number of items to add 0
+callLog __ 2018-11-27 09:13:59:221__!!Service Completed!!
+callLog __ 2018-11-27 09:14:26:070__!!Service Started!!
+callLog __ 2018-11-27 09:14:26:449__Transaction Received from Db
+callLog __ 2018-11-27 09:14:27:234__Transactions Received from Bitcoin Server
+callLog __ 2018-11-27 09:14:27:236__Total Number of items to add 11
+callLog __ 2018-11-27 09:14:27:238__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:355__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-27 09:14:27:359__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:373__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:14:27:389__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:403__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:14:27:408__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:423__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:14:27:426__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:437__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:14:27:442__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:464__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-27 09:14:27:469__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:483__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-27 09:14:27:505__User Wallet Not Null, UID: 0 UserWalletId: 215
+callLog __ 2018-11-27 09:14:27:505__Transaction Type: receive
+callLog __ 2018-11-27 09:14:27:506__Transaction Amount: 1E-05
+callLog __ 2018-11-27 09:14:27:518__Added to User Wallet Transactions
+callLog __ 2018-11-27 09:14:27:525__Updated User Wallet Sum
+callLog __ 2018-11-27 09:14:27:525__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:535__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-27 09:14:27:537__User Wallet Not Null, UID: 0 UserWalletId: 215
+callLog __ 2018-11-27 09:14:27:538__Transaction Type: send
+callLog __ 2018-11-27 09:14:27:538__Transaction Amount: 1E-05
+callLog __ 2018-11-27 09:14:27:547__Added to User Wallet Transactions
+callLog __ 2018-11-27 09:14:27:565__Updated User Wallet Sum
+callLog __ 2018-11-27 09:14:27:567__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:580__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-27 09:14:27:588__User Wallet Not Null, UID: 0 UserWalletId: 359
+callLog __ 2018-11-27 09:14:27:588__Transaction Type: receive
+callLog __ 2018-11-27 09:14:27:591__Transaction Amount: 0.00021939
+callLog __ 2018-11-27 09:14:27:604__Added to User Wallet Transactions
+callLog __ 2018-11-27 09:14:27:614__Updated User Wallet Sum
+callLog __ 2018-11-27 09:14:27:614__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:622__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-27 09:14:27:625__User Wallet Not Null, UID: 0 UserWalletId: 363
+callLog __ 2018-11-27 09:14:27:626__Transaction Type: receive
+callLog __ 2018-11-27 09:14:27:627__Transaction Amount: 0.00120206
+callLog __ 2018-11-27 09:14:27:636__Added to User Wallet Transactions
+callLog __ 2018-11-27 09:14:27:640__Updated User Wallet Sum
+callLog __ 2018-11-27 09:14:27:641__Added to BTC Transactions: 
+callLog __ 2018-11-27 09:14:27:654__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-27 09:14:27:657__User Wallet Not Null, UID: 0 UserWalletId: 359
+callLog __ 2018-11-27 09:14:27:658__Transaction Type: receive
+callLog __ 2018-11-27 09:14:27:659__Transaction Amount: 0.00014548
+callLog __ 2018-11-27 09:14:27:676__Added to User Wallet Transactions
+callLog __ 2018-11-27 09:14:27:683__Updated User Wallet Sum
+callLog __ 2018-11-27 09:14:27:684__!!Service Completed!!
+callLog __ 2018-11-28 16:27:28:643__!!Service Started!!
+callLog __ 2018-11-28 16:27:28:930__Transaction Received from Db
+callLog __ 2018-11-28 16:27:29:648__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:27:29:649__Total Number of items to add 1
+callLog __ 2018-11-28 16:27:29:650__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:27:29:684__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:27:42:526__!!Service Completed!!
+callLog __ 2018-11-28 16:28:02:367__!!Service Started!!
+callLog __ 2018-11-28 16:28:02:578__Transaction Received from Db
+callLog __ 2018-11-28 16:28:03:290__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:28:03:291__Total Number of items to add 16
+callLog __ 2018-11-28 16:28:03:292__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:28:03:307__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-28 16:28:21:878__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:28:21:983__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:28:21:985__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:28:21:991__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:28:21:993__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:28:21:999__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:28:22:000__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:28:22:006__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:28:22:007__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:28:22:013__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:28:22:015__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:28:22:020__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-28 16:30:01:322__!!Service Started!!
+callLog __ 2018-11-28 16:30:21:027__Transaction Received from Db
+callLog __ 2018-11-28 16:30:21:733__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:30:21:734__Total Number of items to add 8
+callLog __ 2018-11-28 16:30:21:735__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:30:21:843__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-28 16:30:29:751__Transaction Type: receive
+callLog __ 2018-11-28 16:30:29:752__Transaction Amount: 0
+AutomateBitCoin __ 2018-11-28 16:30:29:790__System.NullReferenceException: Object reference not set to an instance of an object.
+   at BtcSync.Program.<>c__DisplayClass2_0.<AutomateBitCoin>b__0(BitCoinTransaction x) in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 102
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at BtcSync.Program.AutomateBitCoin() in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 71
+callLog __ 2018-11-28 16:30:59:845__!!Service Started!!
+callLog __ 2018-11-28 16:31:00:079__Transaction Received from Db
+callLog __ 2018-11-28 16:31:00:796__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:31:00:798__Total Number of items to add 16
+callLog __ 2018-11-28 16:31:00:799__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:31:00:829__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-28 16:31:03:045__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:31:03:051__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:31:04:979__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:31:04:987__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:31:13:667__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:31:13:692__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:31:16:663__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:31:16:678__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:31:17:490__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:31:17:498__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:31:18:156__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:31:18:162__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-28 16:32:53:958__!!Service Started!!
+AutomateBitCoin __ 2018-11-28 16:33:02:471__System.ArgumentException: Object of type 'System.Decimal' cannot be converted to type 'System.Double'.
+   at System.RuntimeType.TryChangeType(Object value, Binder binder, CultureInfo culture, Boolean needsSpecialCast)
+   at System.Reflection.MethodBase.CheckArguments(Object[] parameters, Binder binder, BindingFlags invokeAttr, CultureInfo culture, Signature sig)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at BtcSync.Helper.Extensions.ToList[T](DataTable dataTable) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\Extensions.cs:line 73
+   at BtcSync.Repository.TransactionRepository.GetAllTransactions() in E:\Projects\BitcoinService\BtcSync\BtcSync\Repository\TransactionRepository.cs:line 48
+   at BtcSync.Program.AutomateBitCoin() in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 40
+callLog __ 2018-11-28 16:33:10:457__!!Service Started!!
+callLog __ 2018-11-28 16:33:10:690__Transaction Received from Db
+callLog __ 2018-11-28 16:33:11:402__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:33:11:404__Total Number of items to add 16
+callLog __ 2018-11-28 16:33:11:405__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:33:11:433__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-28 16:33:13:042__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:33:13:049__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:33:14:068__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:33:14:084__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:33:14:939__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:33:14:952__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:33:15:859__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:33:15:871__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:33:16:831__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:33:16:843__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:33:17:705__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:33:17:717__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-28 16:35:54:939__!!Service Started!!
+callLog __ 2018-11-28 16:35:55:168__Transaction Received from Db
+callLog __ 2018-11-28 16:35:55:905__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:35:55:907__Total Number of items to add 1
+callLog __ 2018-11-28 16:35:55:908__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:35:55:926__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:36:00:012__!!Service Completed!!
+callLog __ 2018-11-28 16:36:06:716__!!Service Started!!
+callLog __ 2018-11-28 16:36:06:964__Transaction Received from Db
+callLog __ 2018-11-28 16:36:07:712__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:36:07:714__Total Number of items to add 16
+callLog __ 2018-11-28 16:36:07:715__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:36:07:726__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-28 16:36:07:729__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:36:07:739__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:36:07:741__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:36:07:754__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:36:07:761__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:36:07:774__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:36:07:787__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:36:07:804__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:36:07:814__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:36:07:828__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:36:07:830__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:36:07:841__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-28 16:36:11:417__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-28 16:36:26:312__Transaction Type: receive
+callLog __ 2018-11-28 16:36:26:317__Transaction Amount: 0.00001
+callLog __ 2018-11-28 16:36:32:581__Added to User Wallet Transactions
+callLog __ 2018-11-28 16:38:27:690__Transaction Type: receive
+callLog __ 2018-11-28 16:38:37:616__Transaction Amount: 0.00001
+callLog __ 2018-11-28 16:41:12:743__!!Service Started!!
+callLog __ 2018-11-28 16:41:12:976__Transaction Received from Db
+callLog __ 2018-11-28 16:41:13:700__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:41:13:702__Total Number of items to add 16
+callLog __ 2018-11-28 16:41:13:703__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:13:742__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-28 16:41:13:744__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:13:755__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:41:13:758__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:13:768__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:41:13:771__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:13:782__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:41:13:786__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:13:796__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:41:13:799__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:13:817__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:41:13:820__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:13:836__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-28 16:41:20:872__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-28 16:41:21:738__Transaction Type: receive
+callLog __ 2018-11-28 16:41:21:857__Transaction Amount: 0.00001
+callLog __ 2018-11-28 16:41:49:666__Added to User Wallet Transactions
+callLog __ 2018-11-28 16:41:49:722__Updated User Wallet Sum
+callLog __ 2018-11-28 16:41:49:722__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:41:49:729__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-28 16:42:08:332__!!Service Started!!
+callLog __ 2018-11-28 16:42:08:553__Transaction Received from Db
+callLog __ 2018-11-28 16:42:09:291__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 16:42:09:292__Total Number of items to add 16
+callLog __ 2018-11-28 16:42:09:294__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:42:09:326__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-28 16:42:09:341__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:42:09:366__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:42:09:369__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:42:09:391__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:42:09:396__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:42:09:412__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:42:09:415__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:42:09:431__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:42:09:435__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:42:09:447__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 16:42:09:452__Added to BTC Transactions: 
+callLog __ 2018-11-28 16:42:09:482__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-28 16:42:11:740__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-28 16:42:13:384__Transaction Type: receive
+callLog __ 2018-11-28 16:42:13:384__Transaction Amount: 0.00001
+callLog __ 2018-11-28 16:42:32:766__Added to User Wallet Transactions
+callLog __ 2018-11-28 19:49:12:784__!!Service Started!!
+callLog __ 2018-11-28 19:49:13:033__Transaction Received from Db
+callLog __ 2018-11-28 19:49:13:734__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 19:49:13:735__Total Number of items to add 14
+callLog __ 2018-11-28 19:49:13:737__Added to BTC Transactions: 
+callLog __ 2018-11-28 19:49:13:791__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-28 20:11:47:114__!!Service Started!!
+callLog __ 2018-11-28 20:11:47:401__Transaction Received from Db
+callLog __ 2018-11-28 20:12:00:442__!!Service Started!!
+callLog __ 2018-11-28 20:12:00:659__Transaction Received from Db
+callLog __ 2018-11-28 20:12:01:372__Transactions Received from Bitcoin Server
+callLog __ 2018-11-28 20:12:01:374__Total Number of items to add 1
+callLog __ 2018-11-28 20:12:01:375__Added to BTC Transactions: 
+callLog __ 2018-11-28 20:12:01:399__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:26:46:280__!!Service Started!!
+callLog __ 2018-11-29 14:26:46:564__Transaction Received from Db
+callLog __ 2018-11-29 14:26:47:406__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:26:47:407__Total Number of items to add 10
+callLog __ 2018-11-29 14:26:47:409__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:26:47:437__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:27:07:282__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:27:07:283__Transaction Type: send
+callLog __ 2018-11-29 14:27:07:283__Transaction Amount: 0.0012
+callLog __ 2018-11-29 14:28:32:712__!!Service Started!!
+callLog __ 2018-11-29 14:28:32:899__Transaction Received from Db
+callLog __ 2018-11-29 14:28:33:739__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:28:33:740__Total Number of items to add 25
+callLog __ 2018-11-29 14:28:33:742__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:785__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 14:28:33:803__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 14:28:33:805__Transaction Type: receive
+callLog __ 2018-11-29 14:28:33:805__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 14:28:33:817__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:28:33:822__Updated User Wallet Sum
+callLog __ 2018-11-29 14:28:33:823__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:840__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:28:33:841__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:853__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:28:33:853__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:861__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:28:33:861__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:879__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:28:33:879__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:888__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:28:33:888__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:897__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:28:33:901__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 14:28:33:901__Transaction Type: receive
+callLog __ 2018-11-29 14:28:33:901__Transaction Amount: 0.00001
+callLog __ 2018-11-29 14:28:33:910__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:28:33:914__Updated User Wallet Sum
+callLog __ 2018-11-29 14:28:33:919__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:952__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:28:33:953__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:962__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:28:33:964__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:28:33:965__Transaction Type: receive
+callLog __ 2018-11-29 14:28:33:965__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 14:28:33:984__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:28:33:989__Updated User Wallet Sum
+callLog __ 2018-11-29 14:28:33:989__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:33:996__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:28:33:998__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:28:33:998__Transaction Type: receive
+callLog __ 2018-11-29 14:28:33:999__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 14:28:34:011__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:28:34:016__Updated User Wallet Sum
+callLog __ 2018-11-29 14:28:34:018__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:34:028__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:28:34:030__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:28:34:031__Transaction Type: receive
+callLog __ 2018-11-29 14:28:34:031__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 14:28:34:041__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:28:34:045__Updated User Wallet Sum
+callLog __ 2018-11-29 14:28:34:046__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:34:056__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:28:34:059__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:28:34:059__Transaction Type: receive
+callLog __ 2018-11-29 14:28:34:060__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 14:28:34:068__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:28:34:073__Updated User Wallet Sum
+callLog __ 2018-11-29 14:28:34:073__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:28:34:080__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:28:34:087__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:28:34:087__Transaction Type: receive
+callLog __ 2018-11-29 14:28:34:088__Transaction Amount: 0.01998897
+AutomateBitCoin __ 2018-11-29 14:28:34:146__MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'money_in' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(MySqlConnection connection, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1106
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1015
+   at BtcSync.Repository.TransactionRepository.AddUserWalletTransaction(UserWalletTransaction uwTransaction) in E:\Projects\BitcoinService\BtcSync\BtcSync\Repository\TransactionRepository.cs:line 119
+   at BtcSync.Program.<>c__DisplayClass2_0.<AutomateBitCoin>b__0(BitCoinTransaction x) in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 135
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at BtcSync.Program.AutomateBitCoin() in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 73
+callLog __ 2018-11-29 14:29:20:035__!!Service Started!!
+callLog __ 2018-11-29 14:29:20:276__Transaction Received from Db
+callLog __ 2018-11-29 14:29:21:197__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:29:21:198__Total Number of items to add 26
+callLog __ 2018-11-29 14:29:21:200__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:217__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 14:29:21:231__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 14:29:21:231__Transaction Type: receive
+callLog __ 2018-11-29 14:29:21:232__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 14:29:21:244__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:29:21:248__Updated User Wallet Sum
+callLog __ 2018-11-29 14:29:21:249__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:258__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:29:21:258__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:265__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:29:21:266__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:274__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:29:21:275__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:282__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:29:21:283__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:295__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:29:21:295__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:302__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:29:21:309__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 14:29:21:309__Transaction Type: receive
+callLog __ 2018-11-29 14:29:21:309__Transaction Amount: 0.00001
+callLog __ 2018-11-29 14:29:21:316__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:29:21:324__Updated User Wallet Sum
+callLog __ 2018-11-29 14:29:21:328__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:359__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:29:21:360__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:368__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:29:21:371__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:29:21:373__Transaction Type: receive
+callLog __ 2018-11-29 14:29:21:374__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 14:29:21:381__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:29:21:387__Updated User Wallet Sum
+callLog __ 2018-11-29 14:29:21:393__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:400__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:29:21:402__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:29:21:403__Transaction Type: receive
+callLog __ 2018-11-29 14:29:21:403__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 14:29:21:411__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:29:21:415__Updated User Wallet Sum
+callLog __ 2018-11-29 14:29:21:416__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:423__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:29:21:425__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:29:21:426__Transaction Type: receive
+callLog __ 2018-11-29 14:29:21:426__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 14:29:21:432__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:29:21:436__Updated User Wallet Sum
+callLog __ 2018-11-29 14:29:21:436__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:443__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:29:21:446__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:29:21:446__Transaction Type: receive
+callLog __ 2018-11-29 14:29:21:447__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 14:29:21:453__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:29:21:459__Updated User Wallet Sum
+callLog __ 2018-11-29 14:29:21:459__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:29:21:468__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:29:21:470__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:29:21:471__Transaction Type: receive
+callLog __ 2018-11-29 14:29:21:472__Transaction Amount: 0.01998897
+AutomateBitCoin __ 2018-11-29 14:29:21:533__MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'money_in' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(MySqlConnection connection, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1106
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1015
+   at BtcSync.Repository.TransactionRepository.AddUserWalletTransaction(UserWalletTransaction uwTransaction) in E:\Projects\BitcoinService\BtcSync\BtcSync\Repository\TransactionRepository.cs:line 119
+   at BtcSync.Program.<>c__DisplayClass2_0.<AutomateBitCoin>b__0(BitCoinTransaction x) in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 135
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at BtcSync.Program.AutomateBitCoin() in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 73
+callLog __ 2018-11-29 14:30:26:861__!!Service Started!!
+callLog __ 2018-11-29 14:30:27:101__Transaction Received from Db
+callLog __ 2018-11-29 14:30:27:974__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:30:27:976__Total Number of items to add 26
+callLog __ 2018-11-29 14:30:30:459__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:30:33:848__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 14:30:57:172__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 14:30:57:173__Transaction Type: receive
+callLog __ 2018-11-29 14:30:57:173__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 14:30:57:260__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:30:57:271__Updated User Wallet Sum
+callLog __ 2018-11-29 14:30:59:135__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:30:59:142__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:31:00:146__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:00:155__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:31:01:042__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:01:051__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:31:02:008__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:02:023__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:31:02:891__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:02:902__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:31:03:659__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:03:669__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:31:03:671__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 14:31:03:672__Transaction Type: receive
+callLog __ 2018-11-29 14:31:03:672__Transaction Amount: 0.00001
+callLog __ 2018-11-29 14:31:03:678__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:31:03:692__Updated User Wallet Sum
+callLog __ 2018-11-29 14:31:04:346__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:04:354__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:31:05:020__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:05:037__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:31:05:039__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:31:05:040__Transaction Type: receive
+callLog __ 2018-11-29 14:31:05:040__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 14:31:05:046__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:31:05:052__Updated User Wallet Sum
+callLog __ 2018-11-29 14:31:05:703__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:05:710__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:31:05:712__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:31:05:713__Transaction Type: receive
+callLog __ 2018-11-29 14:31:05:714__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 14:31:05:720__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:31:05:725__Updated User Wallet Sum
+callLog __ 2018-11-29 14:31:08:468__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:08:477__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:31:08:480__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:31:08:481__Transaction Type: receive
+callLog __ 2018-11-29 14:31:08:481__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 14:31:08:488__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:31:08:492__Updated User Wallet Sum
+callLog __ 2018-11-29 14:31:11:039__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:11:049__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:31:11:051__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:31:11:051__Transaction Type: receive
+callLog __ 2018-11-29 14:31:11:052__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 14:31:11:058__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:31:11:063__Updated User Wallet Sum
+callLog __ 2018-11-29 14:31:13:691__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:31:13:699__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:31:13:702__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:31:13:702__Transaction Type: receive
+callLog __ 2018-11-29 14:31:13:703__Transaction Amount: 0.01998897
+AutomateBitCoin __ 2018-11-29 14:32:25:665__MySql.Data.MySqlClient.MySqlException (0x80004005): Data too long for column 'money_in' at row 1
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(MySqlConnection connection, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1106
+   at BtcSync.Helper.MySqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, MySqlParameter[] commandParameters) in E:\Projects\BitcoinService\BtcSync\BtcSync\Helper\MySqlHelper.cs:line 1015
+   at BtcSync.Repository.TransactionRepository.AddUserWalletTransaction(UserWalletTransaction uwTransaction) in E:\Projects\BitcoinService\BtcSync\BtcSync\Repository\TransactionRepository.cs:line 119
+   at BtcSync.Program.<>c__DisplayClass2_0.<AutomateBitCoin>b__0(BitCoinTransaction x) in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 135
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at BtcSync.Program.AutomateBitCoin() in E:\Projects\BitcoinService\BtcSync\BtcSync\Program.cs:line 73
+callLog __ 2018-11-29 14:33:45:690__!!Service Started!!
+callLog __ 2018-11-29 14:33:45:903__Transaction Received from Db
+callLog __ 2018-11-29 14:33:46:780__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:33:46:782__Total Number of items to add 12
+callLog __ 2018-11-29 14:33:56:653__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:33:56:716__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:33:56:720__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:33:56:721__Transaction Type: send
+callLog __ 2018-11-29 14:33:56:721__Transaction Amount: 0.0012
+callLog __ 2018-11-29 14:34:05:661__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:05:663__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:05:664__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:05:670__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:34:05:681__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:05:681__Transaction Type: send
+callLog __ 2018-11-29 14:34:05:681__Transaction Amount: 0.00003
+callLog __ 2018-11-29 14:34:12:569__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:12:571__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:12:571__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:12:578__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 14:34:12:580__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:12:580__Transaction Type: send
+callLog __ 2018-11-29 14:34:12:580__Transaction Amount: 0.0028
+callLog __ 2018-11-29 14:34:14:852__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:14:853__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:14:854__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:14:860__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 14:34:14:862__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:14:869__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 14:34:14:871__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:14:871__Transaction Type: send
+callLog __ 2018-11-29 14:34:14:871__Transaction Amount: 0.003
+callLog __ 2018-11-29 14:34:17:667__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:17:670__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:17:670__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:17:678__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 14:34:17:680__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:17:680__Transaction Type: send
+callLog __ 2018-11-29 14:34:17:680__Transaction Amount: 0.0005
+callLog __ 2018-11-29 14:34:19:931__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:19:933__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:19:933__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:19:940__Getting Wallet By Key: 1CHn8Xc5aiw4eD5FK4Yb4p9fLaE3Ctyvez
+callLog __ 2018-11-29 14:34:19:942__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:19:943__Transaction Type: send
+callLog __ 2018-11-29 14:34:19:944__Transaction Amount: 0.00005
+callLog __ 2018-11-29 14:34:22:270__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:22:272__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:22:273__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:22:278__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 14:34:22:280__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:22:281__Transaction Type: send
+callLog __ 2018-11-29 14:34:22:281__Transaction Amount: 0.00004
+callLog __ 2018-11-29 14:34:25:359__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:25:361__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:25:362__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:25:368__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 14:34:25:371__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:25:372__Transaction Type: send
+callLog __ 2018-11-29 14:34:25:372__Transaction Amount: 0.000035
+callLog __ 2018-11-29 14:34:27:856__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:27:859__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:27:860__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:27:866__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:34:27:868__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:34:27:868__Transaction Type: receive
+callLog __ 2018-11-29 14:34:27:868__Transaction Amount: 0.001
+callLog __ 2018-11-29 14:34:35:392__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:34:38:230__Updated User Wallet Sum
+callLog __ 2018-11-29 14:34:38:234__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:38:256__Getting Wallet By Key: 37brQVtfN7dk7Qbukmawz5wonnKNQjFuHv
+callLog __ 2018-11-29 14:34:38:258__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:34:38:265__Getting Wallet By Key: 3HYj7YwMDvwPc31et3QauB6go55uoi4aCE
+callLog __ 2018-11-29 14:34:38:267__!!Service Completed!!
+callLog __ 2018-11-29 14:35:20:823__!!Service Started!!
+callLog __ 2018-11-29 14:35:21:054__Transaction Received from Db
+callLog __ 2018-11-29 14:35:21:741__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:35:21:742__Total Number of items to add 0
+callLog __ 2018-11-29 14:35:21:743__!!Service Completed!!
+callLog __ 2018-11-29 14:36:03:730__!!Service Started!!
+callLog __ 2018-11-29 14:36:03:954__Transaction Received from Db
+callLog __ 2018-11-29 14:36:04:807__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:36:04:809__Total Number of items to add 27
+callLog __ 2018-11-29 14:36:04:810__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:04:872__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 14:36:04:886__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 14:36:04:886__Transaction Type: receive
+callLog __ 2018-11-29 14:36:04:886__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 14:36:10:392__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:36:10:401__Updated User Wallet Sum
+callLog __ 2018-11-29 14:36:10:402__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:413__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:36:10:414__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:422__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:36:10:422__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:429__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:36:10:429__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:437__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:36:10:437__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:444__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:36:10:444__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:451__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:36:10:453__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 14:36:10:453__Transaction Type: receive
+callLog __ 2018-11-29 14:36:10:454__Transaction Amount: 0.00001
+callLog __ 2018-11-29 14:36:10:460__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:36:10:468__Updated User Wallet Sum
+callLog __ 2018-11-29 14:36:10:473__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:480__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:36:10:481__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:487__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:36:10:489__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:36:10:490__Transaction Type: receive
+callLog __ 2018-11-29 14:36:10:490__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 14:36:10:497__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:36:10:501__Updated User Wallet Sum
+callLog __ 2018-11-29 14:36:10:502__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:509__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:36:10:511__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:36:10:512__Transaction Type: receive
+callLog __ 2018-11-29 14:36:10:512__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 14:36:10:519__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:36:10:523__Updated User Wallet Sum
+callLog __ 2018-11-29 14:36:10:524__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:530__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:36:10:533__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:36:10:534__Transaction Type: receive
+callLog __ 2018-11-29 14:36:10:534__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 14:36:10:541__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:36:10:545__Updated User Wallet Sum
+callLog __ 2018-11-29 14:36:10:546__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:553__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:36:10:555__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:36:10:556__Transaction Type: receive
+callLog __ 2018-11-29 14:36:10:558__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 14:36:10:567__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:36:10:572__Updated User Wallet Sum
+callLog __ 2018-11-29 14:36:10:573__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:36:10:579__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:36:10:581__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:36:10:581__Transaction Type: receive
+callLog __ 2018-11-29 14:36:10:582__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 14:44:15:432__!!Service Started!!
+callLog __ 2018-11-29 14:44:15:665__Transaction Received from Db
+callLog __ 2018-11-29 14:44:16:363__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:44:16:364__Total Number of items to add 0
+callLog __ 2018-11-29 14:44:16:364__!!Service Completed!!
+callLog __ 2018-11-29 14:44:51:417__!!Service Started!!
+callLog __ 2018-11-29 14:44:51:646__Transaction Received from Db
+callLog __ 2018-11-29 14:44:52:358__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:44:52:360__Total Number of items to add 27
+callLog __ 2018-11-29 14:44:52:361__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:394__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 14:44:52:415__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 14:44:52:416__Transaction Type: receive
+callLog __ 2018-11-29 14:44:52:417__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 14:44:52:434__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:44:52:442__Updated User Wallet Sum
+callLog __ 2018-11-29 14:44:52:442__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:456__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:44:52:456__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:471__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:44:52:472__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:483__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:44:52:483__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:510__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:44:52:511__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:540__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:44:52:541__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:547__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:44:52:549__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 14:44:52:550__Transaction Type: receive
+callLog __ 2018-11-29 14:44:52:550__Transaction Amount: 1E-05
+callLog __ 2018-11-29 14:44:52:557__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:44:52:569__Updated User Wallet Sum
+callLog __ 2018-11-29 14:44:52:570__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:578__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:44:52:579__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:590__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:44:52:592__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:44:52:593__Transaction Type: receive
+callLog __ 2018-11-29 14:44:52:593__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 14:44:52:603__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:44:52:608__Updated User Wallet Sum
+callLog __ 2018-11-29 14:44:52:608__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:625__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:44:52:635__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:44:52:636__Transaction Type: receive
+callLog __ 2018-11-29 14:44:52:636__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 14:44:52:645__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:44:52:650__Updated User Wallet Sum
+callLog __ 2018-11-29 14:44:52:651__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:662__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:44:52:666__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:44:52:668__Transaction Type: receive
+callLog __ 2018-11-29 14:44:52:670__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 14:44:52:691__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:44:52:696__Updated User Wallet Sum
+callLog __ 2018-11-29 14:44:52:697__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:708__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:44:52:711__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:44:52:712__Transaction Type: receive
+callLog __ 2018-11-29 14:44:52:712__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 14:44:52:726__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:44:52:730__Updated User Wallet Sum
+callLog __ 2018-11-29 14:44:52:730__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:742__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:44:52:745__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:44:52:745__Transaction Type: receive
+callLog __ 2018-11-29 14:44:52:746__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 14:44:52:754__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:44:52:758__Updated User Wallet Sum
+callLog __ 2018-11-29 14:44:52:758__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:763__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:44:52:764__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:771__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:44:52:771__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:44:52:780__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:44:52:784__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:44:52:787__Transaction Type: send
+callLog __ 2018-11-29 14:44:52:788__Transaction Amount: 0.0012
+callLog __ 2018-11-29 14:50:09:524__!!Service Started!!
+callLog __ 2018-11-29 14:50:09:767__Transaction Received from Db
+callLog __ 2018-11-29 14:50:10:728__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:50:10:729__Total Number of items to add 0
+callLog __ 2018-11-29 14:50:10:730__!!Service Completed!!
+callLog __ 2018-11-29 14:50:36:897__!!Service Started!!
+callLog __ 2018-11-29 14:50:37:097__Transaction Received from Db
+callLog __ 2018-11-29 14:50:37:854__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 14:50:37:856__Total Number of items to add 27
+callLog __ 2018-11-29 14:50:37:857__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:37:909__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 14:50:37:942__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 14:50:37:942__Transaction Type: receive
+callLog __ 2018-11-29 14:50:37:943__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 14:50:37:958__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:50:37:981__Updated User Wallet Sum
+callLog __ 2018-11-29 14:50:37:981__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:37:999__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:50:38:000__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:010__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:50:38:010__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:026__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:50:38:026__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:034__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:50:38:035__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:051__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:50:38:052__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:061__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:50:38:064__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 14:50:38:064__Transaction Type: receive
+callLog __ 2018-11-29 14:50:38:065__Transaction Amount: 1E-05
+callLog __ 2018-11-29 14:50:38:081__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:50:38:105__Updated User Wallet Sum
+callLog __ 2018-11-29 14:50:38:105__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:112__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 14:50:38:113__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:124__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:50:38:128__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:50:38:129__Transaction Type: receive
+callLog __ 2018-11-29 14:50:38:129__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 14:50:38:144__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:50:38:151__Updated User Wallet Sum
+callLog __ 2018-11-29 14:50:38:151__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:174__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:50:38:181__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:50:38:181__Transaction Type: receive
+callLog __ 2018-11-29 14:50:38:181__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 14:50:38:191__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:50:38:194__Updated User Wallet Sum
+callLog __ 2018-11-29 14:50:38:195__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:208__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 14:50:38:210__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 14:50:38:211__Transaction Type: receive
+callLog __ 2018-11-29 14:50:38:211__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 14:50:38:220__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:50:38:226__Updated User Wallet Sum
+callLog __ 2018-11-29 14:50:38:227__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:240__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:50:38:242__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:50:38:243__Transaction Type: receive
+callLog __ 2018-11-29 14:50:38:243__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 14:50:38:249__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:50:38:255__Updated User Wallet Sum
+callLog __ 2018-11-29 14:50:38:256__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:263__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:50:38:266__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:50:38:267__Transaction Type: receive
+callLog __ 2018-11-29 14:50:38:267__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 14:50:38:277__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:50:38:282__Updated User Wallet Sum
+callLog __ 2018-11-29 14:50:38:287__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:295__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 14:50:38:295__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:303__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:50:38:305__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:50:38:312__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:50:38:315__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:50:38:315__Transaction Type: send
+callLog __ 2018-11-29 14:50:38:317__Transaction Amount: 0.0012
+callLog __ 2018-11-29 14:51:27:295__Added to User Wallet Transactions
+callLog __ 2018-11-29 14:51:27:297__Updated User Wallet Sum
+callLog __ 2018-11-29 14:51:27:298__Added to BTC Transactions: 
+callLog __ 2018-11-29 14:51:27:335__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 14:51:27:339__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 14:51:27:342__Transaction Type: send
+callLog __ 2018-11-29 14:51:27:343__Transaction Amount: 3E-05
+callLog __ 2018-11-29 17:54:43:017__!!Service Started!!
+callLog __ 2018-11-29 17:54:43:356__Transaction Received from Db
+callLog __ 2018-11-29 17:54:44:291__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 17:54:44:293__Total Number of items to add 27
+callLog __ 2018-11-29 17:54:44:294__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:54:44:308__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 17:54:44:323__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 17:54:44:323__Transaction Type: receive
+callLog __ 2018-11-29 17:54:44:324__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 17:55:07:873__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:55:07:881__Updated User Wallet Sum
+callLog __ 2018-11-29 17:55:07:882__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:892__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:55:07:893__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:900__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:55:07:901__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:910__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:55:07:911__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:917__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:55:07:917__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:924__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:55:07:925__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:931__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 17:55:07:933__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 17:55:07:933__Transaction Type: receive
+callLog __ 2018-11-29 17:55:07:934__Transaction Amount: 1E-05
+callLog __ 2018-11-29 17:55:07:940__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:55:07:952__Updated User Wallet Sum
+callLog __ 2018-11-29 17:55:07:953__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:959__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 17:55:07:960__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:966__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 17:55:07:968__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 17:55:07:968__Transaction Type: receive
+callLog __ 2018-11-29 17:55:07:968__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 17:55:07:974__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:55:07:978__Updated User Wallet Sum
+callLog __ 2018-11-29 17:55:07:980__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:07:986__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 17:55:07:988__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 17:55:07:988__Transaction Type: receive
+callLog __ 2018-11-29 17:55:07:989__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 17:55:07:996__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:55:08:000__Updated User Wallet Sum
+callLog __ 2018-11-29 17:55:08:001__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:08:008__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 17:55:08:010__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 17:55:08:011__Transaction Type: receive
+callLog __ 2018-11-29 17:55:08:011__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 17:55:08:018__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:55:08:022__Updated User Wallet Sum
+callLog __ 2018-11-29 17:55:08:022__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:08:029__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 17:55:08:031__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 17:55:08:031__Transaction Type: receive
+callLog __ 2018-11-29 17:55:08:032__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 17:55:08:037__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:55:08:042__Updated User Wallet Sum
+callLog __ 2018-11-29 17:55:08:042__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:08:049__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 17:55:08:052__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 17:55:08:053__Transaction Type: receive
+callLog __ 2018-11-29 17:55:08:053__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 17:55:08:060__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:55:08:063__Updated User Wallet Sum
+callLog __ 2018-11-29 17:55:08:065__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:08:071__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 17:55:08:072__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:08:079__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:55:08:080__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:55:08:087__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:55:08:091__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 17:55:08:092__Transaction Type: send
+callLog __ 2018-11-29 17:55:08:093__Transaction Amount: 0.0012
+callLog __ 2018-11-29 17:59:51:679__!!Service Started!!
+callLog __ 2018-11-29 17:59:51:953__Transaction Received from Db
+callLog __ 2018-11-29 17:59:53:078__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 17:59:53:079__Total Number of items to add 27
+callLog __ 2018-11-29 17:59:53:080__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:59:53:094__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 17:59:53:105__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 17:59:53:106__Transaction Type: receive
+callLog __ 2018-11-29 17:59:53:106__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 17:59:55:886__Added to User Wallet Transactions
+callLog __ 2018-11-29 17:59:55:891__Updated User Wallet Sum
+callLog __ 2018-11-29 17:59:55:891__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:59:55:899__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:59:55:899__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:59:55:906__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:59:55:907__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:59:55:913__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:59:55:913__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:59:55:921__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:59:55:921__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:59:55:928__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 17:59:55:929__Added to BTC Transactions: 
+callLog __ 2018-11-29 17:59:55:935__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 17:59:55:937__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 17:59:55:938__Transaction Type: receive
+callLog __ 2018-11-29 17:59:55:938__Transaction Amount: 1E-05
+callLog __ 2018-11-29 18:00:01:919__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:01:928__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:01:929__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:01:936__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:00:01:937__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:01:944__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:00:01:946__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:00:01:947__Transaction Type: receive
+callLog __ 2018-11-29 18:00:01:947__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 18:00:01:954__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:01:959__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:01:960__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:01:966__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:00:01:968__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:01:969__Transaction Type: receive
+callLog __ 2018-11-29 18:00:01:969__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 18:00:01:977__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:01:982__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:01:983__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:01:990__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:00:01:993__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:00:01:993__Transaction Type: receive
+callLog __ 2018-11-29 18:00:01:994__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 18:00:02:001__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:02:006__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:02:006__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:02:013__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:00:02:015__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:02:015__Transaction Type: receive
+callLog __ 2018-11-29 18:00:02:015__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 18:00:02:022__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:02:026__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:02:027__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:02:033__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:00:02:036__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:02:037__Transaction Type: receive
+callLog __ 2018-11-29 18:00:02:038__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 18:00:02:044__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:02:048__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:02:049__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:02:055__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:00:02:056__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:02:062__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:00:02:063__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:02:069__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:00:02:072__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:02:073__Transaction Type: send
+callLog __ 2018-11-29 18:00:02:074__Transaction Amount: 0.0012
+callLog __ 2018-11-29 18:00:32:441__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:445__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:446__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:454__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:00:32:456__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:457__Transaction Type: send
+callLog __ 2018-11-29 18:00:32:457__Transaction Amount: 3E-05
+callLog __ 2018-11-29 18:00:32:464__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:468__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:468__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:475__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 18:00:32:477__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:477__Transaction Type: send
+callLog __ 2018-11-29 18:00:32:477__Transaction Amount: 0.0028
+callLog __ 2018-11-29 18:00:32:485__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:487__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:488__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:495__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 18:00:32:496__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:503__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 18:00:32:505__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:506__Transaction Type: send
+callLog __ 2018-11-29 18:00:32:506__Transaction Amount: 0.003
+callLog __ 2018-11-29 18:00:32:513__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:515__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:516__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:522__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 18:00:32:524__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:525__Transaction Type: send
+callLog __ 2018-11-29 18:00:32:526__Transaction Amount: 0.0005
+callLog __ 2018-11-29 18:00:32:532__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:534__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:535__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:541__Getting Wallet By Key: 1CHn8Xc5aiw4eD5FK4Yb4p9fLaE3Ctyvez
+callLog __ 2018-11-29 18:00:32:543__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:544__Transaction Type: send
+callLog __ 2018-11-29 18:00:32:545__Transaction Amount: 5E-05
+callLog __ 2018-11-29 18:00:32:552__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:554__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:554__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:561__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 18:00:32:563__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:564__Transaction Type: send
+callLog __ 2018-11-29 18:00:32:564__Transaction Amount: 4E-05
+callLog __ 2018-11-29 18:00:32:571__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:573__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:573__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:581__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 18:00:32:585__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:586__Transaction Type: send
+callLog __ 2018-11-29 18:00:32:586__Transaction Amount: 3.5E-05
+callLog __ 2018-11-29 18:00:32:593__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:595__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:595__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:602__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:00:32:604__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:00:32:604__Transaction Type: receive
+callLog __ 2018-11-29 18:00:32:605__Transaction Amount: 0.001
+callLog __ 2018-11-29 18:00:32:611__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:00:32:614__Updated User Wallet Sum
+callLog __ 2018-11-29 18:00:32:618__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:624__Getting Wallet By Key: 37brQVtfN7dk7Qbukmawz5wonnKNQjFuHv
+callLog __ 2018-11-29 18:00:32:626__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:00:32:632__Getting Wallet By Key: 3HYj7YwMDvwPc31et3QauB6go55uoi4aCE
+callLog __ 2018-11-29 18:00:32:635__!!Service Completed!!
+callLog __ 2018-11-29 18:03:05:496__!!Service Started!!
+callLog __ 2018-11-29 18:03:05:829__Transaction Received from Db
+callLog __ 2018-11-29 18:03:06:928__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 18:03:06:930__Total Number of items to add 27
+callLog __ 2018-11-29 18:03:06:931__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:06:968__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 18:03:06:980__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 18:03:06:980__Transaction Type: receive
+callLog __ 2018-11-29 18:03:06:981__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 18:03:07:003__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:008__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:008__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:023__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:023__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:031__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:031__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:069__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:070__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:078__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:078__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:088__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:088__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:106__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:03:07:108__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 18:03:07:109__Transaction Type: receive
+callLog __ 2018-11-29 18:03:07:109__Transaction Amount: 1E-05
+callLog __ 2018-11-29 18:03:07:119__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:129__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:130__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:146__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:03:07:147__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:160__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:03:07:166__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:03:07:166__Transaction Type: receive
+callLog __ 2018-11-29 18:03:07:166__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 18:03:07:179__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:187__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:187__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:193__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:03:07:201__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:201__Transaction Type: receive
+callLog __ 2018-11-29 18:03:07:202__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 18:03:07:217__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:221__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:222__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:235__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:03:07:247__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:03:07:249__Transaction Type: receive
+callLog __ 2018-11-29 18:03:07:250__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 18:03:07:266__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:270__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:271__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:280__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:03:07:282__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:282__Transaction Type: receive
+callLog __ 2018-11-29 18:03:07:282__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 18:03:07:288__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:292__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:293__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:299__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:03:07:302__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:303__Transaction Type: receive
+callLog __ 2018-11-29 18:03:07:304__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 18:03:07:311__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:316__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:317__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:325__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:03:07:327__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:336__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:337__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:344__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:348__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:349__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:349__Transaction Amount: 0.0012
+callLog __ 2018-11-29 18:03:07:359__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:363__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:364__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:372__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:03:07:374__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:375__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:375__Transaction Amount: 3E-05
+callLog __ 2018-11-29 18:03:07:384__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:386__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:387__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:393__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 18:03:07:395__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:395__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:396__Transaction Amount: 0.0028
+callLog __ 2018-11-29 18:03:07:405__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:407__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:408__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:417__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 18:03:07:419__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:427__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 18:03:07:431__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:431__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:432__Transaction Amount: 0.003
+callLog __ 2018-11-29 18:03:07:443__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:449__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:449__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:461__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 18:03:07:465__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:465__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:465__Transaction Amount: 0.0005
+callLog __ 2018-11-29 18:03:07:474__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:476__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:477__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:493__Getting Wallet By Key: 1CHn8Xc5aiw4eD5FK4Yb4p9fLaE3Ctyvez
+callLog __ 2018-11-29 18:03:07:499__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:499__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:500__Transaction Amount: 5E-05
+callLog __ 2018-11-29 18:03:07:507__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:509__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:509__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:518__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 18:03:07:520__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:521__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:521__Transaction Amount: 4E-05
+callLog __ 2018-11-29 18:03:07:528__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:530__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:531__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:538__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 18:03:07:540__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:541__Transaction Type: send
+callLog __ 2018-11-29 18:03:07:541__Transaction Amount: 3.5E-05
+callLog __ 2018-11-29 18:03:07:549__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:551__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:552__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:560__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:03:07:563__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:03:07:563__Transaction Type: receive
+callLog __ 2018-11-29 18:03:07:564__Transaction Amount: 0.001
+callLog __ 2018-11-29 18:03:07:571__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:03:07:575__Updated User Wallet Sum
+callLog __ 2018-11-29 18:03:07:576__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:583__Getting Wallet By Key: 37brQVtfN7dk7Qbukmawz5wonnKNQjFuHv
+callLog __ 2018-11-29 18:03:07:585__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:03:07:592__Getting Wallet By Key: 3HYj7YwMDvwPc31et3QauB6go55uoi4aCE
+callLog __ 2018-11-29 18:03:07:595__!!Service Completed!!
+callLog __ 2018-11-29 18:05:18:915__!!Service Started!!
+callLog __ 2018-11-29 18:06:52:173__!!Service Started!!
+callLog __ 2018-11-29 18:06:52:377__Transaction Received from Db
+callLog __ 2018-11-29 18:06:53:278__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 18:06:53:280__Total Number of items to add 27
+callLog __ 2018-11-29 18:06:53:281__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:370__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 18:06:53:383__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 18:06:53:384__Transaction Type: receive
+callLog __ 2018-11-29 18:06:53:384__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 18:06:53:394__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:06:53:399__Updated User Wallet Sum
+callLog __ 2018-11-29 18:06:53:399__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:408__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:06:53:408__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:423__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:06:53:424__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:433__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:06:53:433__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:440__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:06:53:441__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:448__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:06:53:448__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:455__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:06:53:458__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 18:06:53:459__Transaction Type: receive
+callLog __ 2018-11-29 18:06:53:459__Transaction Amount: 1E-05
+callLog __ 2018-11-29 18:06:53:467__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:06:53:476__Updated User Wallet Sum
+callLog __ 2018-11-29 18:06:53:477__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:484__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:06:53:485__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:492__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:06:53:494__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:06:53:495__Transaction Type: receive
+callLog __ 2018-11-29 18:06:53:495__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 18:06:53:502__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:06:53:505__Updated User Wallet Sum
+callLog __ 2018-11-29 18:06:53:507__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:514__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:06:53:516__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:06:53:517__Transaction Type: receive
+callLog __ 2018-11-29 18:06:53:517__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 18:06:53:524__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:06:53:528__Updated User Wallet Sum
+callLog __ 2018-11-29 18:06:53:529__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:535__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:06:53:538__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:06:53:539__Transaction Type: receive
+callLog __ 2018-11-29 18:06:53:540__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 18:06:53:547__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:06:53:551__Updated User Wallet Sum
+callLog __ 2018-11-29 18:06:53:551__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:558__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:06:53:561__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:06:53:562__Transaction Type: receive
+callLog __ 2018-11-29 18:06:53:563__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 18:06:53:570__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:06:53:576__Updated User Wallet Sum
+callLog __ 2018-11-29 18:06:53:578__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:585__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:06:53:587__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:06:53:588__Transaction Type: receive
+callLog __ 2018-11-29 18:06:53:588__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 18:06:53:598__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:06:53:603__Updated User Wallet Sum
+callLog __ 2018-11-29 18:06:53:603__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:611__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:06:53:612__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:622__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:06:53:622__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:06:53:631__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:06:53:633__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:06:53:634__Transaction Type: send
+callLog __ 2018-11-29 18:06:53:634__Transaction Amount: 0.0012
+callLog __ 2018-11-29 18:07:01:609__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:07:01:611__Updated User Wallet Sum
+callLog __ 2018-11-29 18:07:01:612__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:07:01:619__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:07:01:622__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:07:01:622__Transaction Type: send
+callLog __ 2018-11-29 18:07:01:622__Transaction Amount: 3E-05
+callLog __ 2018-11-29 18:08:59:399__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:08:59:403__Updated User Wallet Sum
+callLog __ 2018-11-29 18:08:59:403__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:08:59:447__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 18:08:59:449__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:08:59:449__Transaction Type: send
+callLog __ 2018-11-29 18:08:59:450__Transaction Amount: 0.0028
+callLog __ 2018-11-29 18:09:18:275__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:21:961__!!Service Started!!
+callLog __ 2018-11-29 18:11:22:184__Transaction Received from Db
+callLog __ 2018-11-29 18:11:23:123__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 18:11:23:124__Total Number of items to add 0
+callLog __ 2018-11-29 18:11:23:128__!!Service Completed!!
+callLog __ 2018-11-29 18:11:34:544__!!Service Started!!
+callLog __ 2018-11-29 18:11:34:767__Transaction Received from Db
+callLog __ 2018-11-29 18:11:35:901__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 18:11:35:902__Total Number of items to add 27
+callLog __ 2018-11-29 18:11:35:903__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:35:948__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 18:11:35:960__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 18:11:35:961__Transaction Type: receive
+callLog __ 2018-11-29 18:11:35:961__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 18:11:35:971__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:42:611__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:42:611__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:619__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:42:619__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:627__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:42:627__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:634__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:42:634__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:641__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:42:641__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:648__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:42:648__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:655__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:11:42:657__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 18:11:42:658__Transaction Type: receive
+callLog __ 2018-11-29 18:11:42:658__Transaction Amount: 1E-05
+callLog __ 2018-11-29 18:11:42:664__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:42:673__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:42:673__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:681__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:11:42:681__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:687__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:11:42:690__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:11:42:690__Transaction Type: receive
+callLog __ 2018-11-29 18:11:42:690__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 18:11:42:697__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:42:701__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:42:702__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:708__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:11:42:710__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:11:42:711__Transaction Type: receive
+callLog __ 2018-11-29 18:11:42:712__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 18:11:42:718__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:42:722__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:42:723__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:730__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:11:42:732__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:11:42:733__Transaction Type: receive
+callLog __ 2018-11-29 18:11:42:733__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 18:11:42:740__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:42:745__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:42:746__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:754__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:11:42:757__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:11:42:757__Transaction Type: receive
+callLog __ 2018-11-29 18:11:42:758__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 18:11:42:764__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:42:767__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:42:768__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:777__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:11:42:781__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:11:42:782__Transaction Type: receive
+callLog __ 2018-11-29 18:11:42:783__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 18:11:42:796__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:42:801__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:42:802__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:812__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:11:42:812__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:819__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:42:819__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:42:826__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:42:829__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:11:42:830__Transaction Type: send
+callLog __ 2018-11-29 18:11:42:830__Transaction Amount: 0.0012
+callLog __ 2018-11-29 18:11:45:997__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:11:46:003__Updated User Wallet Sum
+callLog __ 2018-11-29 18:11:46:006__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:11:46:013__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:11:46:016__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:11:46:017__Transaction Type: send
+callLog __ 2018-11-29 18:11:46:017__Transaction Amount: 3E-05
+callLog __ 2018-11-29 18:11:52:808__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:41:418__!!Service Started!!
+callLog __ 2018-11-29 18:12:41:651__Transaction Received from Db
+callLog __ 2018-11-29 18:12:42:597__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 18:12:42:598__Total Number of items to add 0
+callLog __ 2018-11-29 18:12:42:601__!!Service Completed!!
+callLog __ 2018-11-29 18:12:53:824__!!Service Started!!
+callLog __ 2018-11-29 18:12:54:036__Transaction Received from Db
+callLog __ 2018-11-29 18:12:55:292__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 18:12:55:293__Total Number of items to add 27
+callLog __ 2018-11-29 18:12:55:294__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:307__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-11-29 18:12:55:320__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-11-29 18:12:55:320__Transaction Type: receive
+callLog __ 2018-11-29 18:12:55:320__Transaction Amount: 0.00779664
+callLog __ 2018-11-29 18:12:55:330__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:55:334__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:55:334__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:344__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:55:344__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:352__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:55:352__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:358__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:55:359__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:365__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:55:366__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:373__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:55:374__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:383__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:12:55:386__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-11-29 18:12:55:386__Transaction Type: receive
+callLog __ 2018-11-29 18:12:55:386__Transaction Amount: 1E-05
+callLog __ 2018-11-29 18:12:55:412__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:55:417__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:55:421__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:442__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-11-29 18:12:55:443__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:454__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:12:55:458__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:12:55:458__Transaction Type: receive
+callLog __ 2018-11-29 18:12:55:458__Transaction Amount: 0.00021939
+callLog __ 2018-11-29 18:12:55:466__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:55:471__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:55:472__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:479__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:12:55:483__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:12:55:484__Transaction Type: receive
+callLog __ 2018-11-29 18:12:55:485__Transaction Amount: 0.00120206
+callLog __ 2018-11-29 18:12:55:501__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:55:509__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:55:509__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:522__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-11-29 18:12:55:526__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-11-29 18:12:55:526__Transaction Type: receive
+callLog __ 2018-11-29 18:12:55:527__Transaction Amount: 0.00014548
+callLog __ 2018-11-29 18:12:55:537__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:55:541__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:55:542__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:549__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:12:55:553__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:12:55:553__Transaction Type: receive
+callLog __ 2018-11-29 18:12:55:554__Transaction Amount: 0.02118897
+callLog __ 2018-11-29 18:12:55:569__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:55:576__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:55:577__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:585__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:12:55:589__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:12:55:589__Transaction Type: receive
+callLog __ 2018-11-29 18:12:55:590__Transaction Amount: 0.01998897
+callLog __ 2018-11-29 18:12:55:598__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:55:605__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:55:605__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:613__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:12:55:614__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:625__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:55:625__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:55:632__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:55:640__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:12:55:640__Transaction Type: send
+callLog __ 2018-11-29 18:12:55:641__Transaction Amount: 0.0012
+callLog __ 2018-11-29 18:12:59:908__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:12:59:912__Updated User Wallet Sum
+callLog __ 2018-11-29 18:12:59:913__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:12:59:920__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-11-29 18:12:59:923__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:12:59:923__Transaction Type: send
+callLog __ 2018-11-29 18:12:59:924__Transaction Amount: 3E-05
+callLog __ 2018-11-29 18:13:11:604__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:41:757__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:41:761__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:41:831__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 18:13:41:833__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:13:41:834__Transaction Type: send
+callLog __ 2018-11-29 18:13:41:834__Transaction Amount: 0.0028
+callLog __ 2018-11-29 18:13:48:289__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:55:455__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:55:457__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:464__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 18:13:55:466__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:472__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-11-29 18:13:55:475__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:13:55:476__Transaction Type: send
+callLog __ 2018-11-29 18:13:55:476__Transaction Amount: 0.003
+callLog __ 2018-11-29 18:13:55:482__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:55:487__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:55:487__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:494__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 18:13:55:496__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:13:55:497__Transaction Type: send
+callLog __ 2018-11-29 18:13:55:497__Transaction Amount: 0.0005
+callLog __ 2018-11-29 18:13:55:504__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:55:508__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:55:508__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:514__Getting Wallet By Key: 1CHn8Xc5aiw4eD5FK4Yb4p9fLaE3Ctyvez
+callLog __ 2018-11-29 18:13:55:516__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:13:55:517__Transaction Type: send
+callLog __ 2018-11-29 18:13:55:517__Transaction Amount: 5E-05
+callLog __ 2018-11-29 18:13:55:524__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:55:529__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:55:530__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:536__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-11-29 18:13:55:538__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:13:55:540__Transaction Type: send
+callLog __ 2018-11-29 18:13:55:540__Transaction Amount: 4E-05
+callLog __ 2018-11-29 18:13:55:547__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:55:550__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:55:551__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:558__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-11-29 18:13:55:560__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:13:55:561__Transaction Type: send
+callLog __ 2018-11-29 18:13:55:561__Transaction Amount: 3.5E-05
+callLog __ 2018-11-29 18:13:55:570__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:55:574__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:55:575__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:580__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-11-29 18:13:55:582__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-11-29 18:13:55:583__Transaction Type: receive
+callLog __ 2018-11-29 18:13:55:584__Transaction Amount: 0.001
+callLog __ 2018-11-29 18:13:55:590__Added to User Wallet Transactions
+callLog __ 2018-11-29 18:13:55:594__Updated User Wallet Sum
+callLog __ 2018-11-29 18:13:55:595__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:602__Getting Wallet By Key: 37brQVtfN7dk7Qbukmawz5wonnKNQjFuHv
+callLog __ 2018-11-29 18:13:55:604__Added to BTC Transactions: 
+callLog __ 2018-11-29 18:13:55:613__Getting Wallet By Key: 3HYj7YwMDvwPc31et3QauB6go55uoi4aCE
+callLog __ 2018-11-29 18:13:55:615__!!Service Completed!!
+callLog __ 2018-11-29 18:49:14:584__!!Service Started!!
+callLog __ 2018-11-29 18:49:14:934__Transaction Received from Db
+callLog __ 2018-11-29 18:49:15:984__Transactions Received from Bitcoin Server
+callLog __ 2018-11-29 18:49:15:985__Total Number of items to add 0
+callLog __ 2018-11-29 18:49:15:985__!!Service Completed!!
+callLog __ 2018-12-04 17:51:42:065__!!Service Started!!
+callLog __ 2018-12-04 17:51:42:799__Transaction Received from Db
+callLog __ 2018-12-04 17:55:20:305__!!Service Started!!
+callLog __ 2018-12-04 17:55:20:548__Transaction Received from Db
+callLog __ 2018-12-04 17:55:21:696__Transactions Received from Bitcoin Server
+callLog __ 2018-12-04 17:55:21:705__Total Number of items to add 8
+callLog __ 2018-12-04 17:55:21:709__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:760__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-04 17:55:21:770__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-04 17:55:21:771__Transaction Type: receive
+callLog __ 2018-12-04 17:55:21:772__Transaction Amount: 0.0238182
+callLog __ 2018-12-04 17:55:21:789__Added to User Wallet Transactions
+callLog __ 2018-12-04 17:55:21:798__Updated User Wallet Sum
+callLog __ 2018-12-04 17:55:21:798__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:811__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-04 17:55:21:815__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-04 17:55:21:816__Transaction Type: send
+callLog __ 2018-12-04 17:55:21:817__Transaction Amount: 0.0125
+callLog __ 2018-12-04 17:55:21:827__Added to User Wallet Transactions
+callLog __ 2018-12-04 17:55:21:833__Updated User Wallet Sum
+callLog __ 2018-12-04 17:55:21:834__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:844__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-04 17:55:21:846__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:857__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-04 17:55:21:859__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-04 17:55:21:860__Transaction Type: send
+callLog __ 2018-12-04 17:55:21:861__Transaction Amount: 0.0025
+callLog __ 2018-12-04 17:55:21:870__Added to User Wallet Transactions
+callLog __ 2018-12-04 17:55:21:877__Updated User Wallet Sum
+callLog __ 2018-12-04 17:55:21:878__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:887__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-04 17:55:21:889__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:899__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-04 17:55:21:901__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-04 17:55:21:903__Transaction Type: send
+callLog __ 2018-12-04 17:55:21:904__Transaction Amount: 0.0026
+callLog __ 2018-12-04 17:55:21:913__Added to User Wallet Transactions
+callLog __ 2018-12-04 17:55:21:920__Updated User Wallet Sum
+callLog __ 2018-12-04 17:55:21:922__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:931__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-04 17:55:21:934__Added to BTC Transactions: 
+callLog __ 2018-12-04 17:55:21:944__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-04 17:55:21:947__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-04 17:55:21:948__Transaction Type: send
+callLog __ 2018-12-04 17:55:21:949__Transaction Amount: 0.00125
+callLog __ 2018-12-04 17:55:21:959__Added to User Wallet Transactions
+callLog __ 2018-12-04 17:55:21:965__Updated User Wallet Sum
+callLog __ 2018-12-04 17:55:21:966__!!Service Completed!!
+callLog __ 2018-12-08 07:21:46:084__!!Service Started!!
+callLog __ 2018-12-08 07:21:46:581__Transaction Received from Db
+callLog __ 2018-12-08 07:26:18:659__!!Service Started!!
+callLog __ 2018-12-08 07:26:19:031__Transaction Received from Db
+callLog __ 2018-12-08 07:26:19:802__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:26:19:806__Total Number of items to add 39
+callLog __ 2018-12-08 07:26:19:809__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:19:888__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-12-08 07:26:19:917__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-12-08 07:26:19:918__Transaction Type: receive
+callLog __ 2018-12-08 07:26:19:918__Transaction Amount: 0.00779664
+callLog __ 2018-12-08 07:26:19:930__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:19:936__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:19:937__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:19:959__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:19:960__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:19:976__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:19:977__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:012__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:20:012__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:020__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:20:021__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:032__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:20:032__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:042__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-12-08 07:26:20:044__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-12-08 07:26:20:045__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:045__Transaction Amount: 1E-05
+callLog __ 2018-12-08 07:26:20:092__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:098__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:098__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:109__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-12-08 07:26:20:109__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:118__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-12-08 07:26:20:122__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-12-08 07:26:20:125__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:125__Transaction Amount: 0.00021939
+callLog __ 2018-12-08 07:26:20:133__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:139__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:139__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:163__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:20:166__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:167__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:168__Transaction Amount: 0.00120206
+callLog __ 2018-12-08 07:26:20:178__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:185__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:185__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:197__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-12-08 07:26:20:199__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-12-08 07:26:20:200__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:201__Transaction Amount: 0.00014548
+callLog __ 2018-12-08 07:26:20:211__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:216__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:217__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:231__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:20:233__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:235__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:235__Transaction Amount: 0.02118897
+callLog __ 2018-12-08 07:26:20:245__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:250__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:250__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:264__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:20:267__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:268__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:270__Transaction Amount: 0.01998897
+callLog __ 2018-12-08 07:26:20:281__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:286__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:289__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:297__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:20:298__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:306__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:20:306__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:317__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:20:321__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:322__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:322__Transaction Amount: 0.0012
+callLog __ 2018-12-08 07:26:20:331__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:335__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:336__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:344__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:20:346__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:347__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:347__Transaction Amount: 3E-05
+callLog __ 2018-12-08 07:26:20:354__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:360__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:360__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:368__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-12-08 07:26:20:372__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:373__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:373__Transaction Amount: 0.0028
+callLog __ 2018-12-08 07:26:20:384__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:389__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:391__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:398__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-12-08 07:26:20:400__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:408__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-12-08 07:26:20:410__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:411__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:411__Transaction Amount: 0.003
+callLog __ 2018-12-08 07:26:20:418__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:422__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:423__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:430__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-12-08 07:26:20:432__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:433__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:434__Transaction Amount: 0.0005
+callLog __ 2018-12-08 07:26:20:442__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:446__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:446__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:454__Getting Wallet By Key: 1CHn8Xc5aiw4eD5FK4Yb4p9fLaE3Ctyvez
+callLog __ 2018-12-08 07:26:20:456__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:457__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:457__Transaction Amount: 5E-05
+callLog __ 2018-12-08 07:26:20:464__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:468__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:469__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:477__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-12-08 07:26:20:479__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:480__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:481__Transaction Amount: 4E-05
+callLog __ 2018-12-08 07:26:20:489__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:493__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:494__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:502__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-12-08 07:26:20:505__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:507__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:507__Transaction Amount: 3.5E-05
+callLog __ 2018-12-08 07:26:20:514__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:517__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:518__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:527__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:20:529__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:529__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:533__Transaction Amount: 0.001
+callLog __ 2018-12-08 07:26:20:541__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:545__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:545__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:552__Getting Wallet By Key: 37brQVtfN7dk7Qbukmawz5wonnKNQjFuHv
+callLog __ 2018-12-08 07:26:20:554__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:562__Getting Wallet By Key: 3HYj7YwMDvwPc31et3QauB6go55uoi4aCE
+callLog __ 2018-12-08 07:26:20:564__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:571__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:20:574__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:574__Transaction Type: receive
+callLog __ 2018-12-08 07:26:20:575__Transaction Amount: 0.0238182
+callLog __ 2018-12-08 07:26:20:582__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:585__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:586__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:593__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:20:595__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:596__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:597__Transaction Amount: 0.0125
+callLog __ 2018-12-08 07:26:20:603__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:607__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:608__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:615__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:20:616__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:624__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:20:626__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:626__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:627__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:26:20:634__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:638__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:639__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:646__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:20:648__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:653__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:20:656__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:656__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:660__Transaction Amount: 0.0026
+callLog __ 2018-12-08 07:26:20:666__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:671__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:671__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:678__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-08 07:26:20:680__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:687__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-08 07:26:20:689__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:690__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:690__Transaction Amount: 0.00125
+callLog __ 2018-12-08 07:26:20:697__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:701__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:702__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:714__Getting Wallet By Key: 39v3y9FchgDvTu2jwcicFffAhebaTW2EL6
+callLog __ 2018-12-08 07:26:20:715__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:724__Getting Wallet By Key: 39v3y9FchgDvTu2jwcicFffAhebaTW2EL6
+callLog __ 2018-12-08 07:26:20:726__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:726__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:727__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:26:20:734__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:740__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:741__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:749__Getting Wallet By Key: 3Qbxs3J4GKCZWaFCEeFjtMuK7jqB2qMgvB
+callLog __ 2018-12-08 07:26:20:751__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:20:760__Getting Wallet By Key: 3Qbxs3J4GKCZWaFCEeFjtMuK7jqB2qMgvB
+callLog __ 2018-12-08 07:26:20:762__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:20:763__Transaction Type: send
+callLog __ 2018-12-08 07:26:20:764__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:26:20:771__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:20:775__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:20:775__!!Service Completed!!
+callLog __ 2018-12-08 07:26:30:564__!!Service Started!!
+callLog __ 2018-12-08 07:26:30:847__Transaction Received from Db
+callLog __ 2018-12-08 07:26:31:545__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:26:31:547__Total Number of items to add 39
+callLog __ 2018-12-08 07:26:31:548__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:570__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-12-08 07:26:31:594__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-12-08 07:26:31:595__Transaction Type: receive
+callLog __ 2018-12-08 07:26:31:596__Transaction Amount: 0.00779664
+callLog __ 2018-12-08 07:26:31:610__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:616__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:616__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:627__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:627__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:636__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:636__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:644__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:645__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:652__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:653__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:661__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:661__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:669__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-12-08 07:26:31:671__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-12-08 07:26:31:671__Transaction Type: receive
+callLog __ 2018-12-08 07:26:31:671__Transaction Amount: 1E-05
+callLog __ 2018-12-08 07:26:31:689__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:694__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:694__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:703__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-12-08 07:26:31:704__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:712__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-12-08 07:26:31:714__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-12-08 07:26:31:715__Transaction Type: receive
+callLog __ 2018-12-08 07:26:31:716__Transaction Amount: 0.00021939
+callLog __ 2018-12-08 07:26:31:727__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:732__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:732__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:747__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:31:750__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:31:751__Transaction Type: receive
+callLog __ 2018-12-08 07:26:31:751__Transaction Amount: 0.00120206
+callLog __ 2018-12-08 07:26:31:769__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:777__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:777__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:788__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-12-08 07:26:31:791__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-12-08 07:26:31:792__Transaction Type: receive
+callLog __ 2018-12-08 07:26:31:793__Transaction Amount: 0.00014548
+callLog __ 2018-12-08 07:26:31:803__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:808__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:809__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:819__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:31:822__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:31:822__Transaction Type: receive
+callLog __ 2018-12-08 07:26:31:823__Transaction Amount: 0.02118897
+callLog __ 2018-12-08 07:26:31:836__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:845__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:847__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:863__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:31:866__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:31:869__Transaction Type: receive
+callLog __ 2018-12-08 07:26:31:869__Transaction Amount: 0.01998897
+callLog __ 2018-12-08 07:26:31:879__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:884__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:886__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:896__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:31:896__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:907__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:907__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:917__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:921__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:31:921__Transaction Type: send
+callLog __ 2018-12-08 07:26:31:924__Transaction Amount: 0.0012
+callLog __ 2018-12-08 07:26:31:931__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:936__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:936__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:950__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:31:956__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:31:956__Transaction Type: send
+callLog __ 2018-12-08 07:26:31:957__Transaction Amount: 3E-05
+callLog __ 2018-12-08 07:26:31:966__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:31:970__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:31:971__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:31:979__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-12-08 07:26:31:986__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:31:986__Transaction Type: send
+callLog __ 2018-12-08 07:26:31:987__Transaction Amount: 0.0028
+callLog __ 2018-12-08 07:26:31:996__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:000__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:003__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:013__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-12-08 07:26:32:016__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:026__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-12-08 07:26:32:029__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:029__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:030__Transaction Amount: 0.003
+callLog __ 2018-12-08 07:26:32:040__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:044__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:044__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:053__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-12-08 07:26:32:055__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:056__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:056__Transaction Amount: 0.0005
+callLog __ 2018-12-08 07:26:32:065__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:070__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:070__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:078__Getting Wallet By Key: 1CHn8Xc5aiw4eD5FK4Yb4p9fLaE3Ctyvez
+callLog __ 2018-12-08 07:26:32:080__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:081__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:084__Transaction Amount: 5E-05
+callLog __ 2018-12-08 07:26:32:092__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:096__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:096__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:106__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-12-08 07:26:32:108__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:110__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:110__Transaction Amount: 4E-05
+callLog __ 2018-12-08 07:26:32:120__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:124__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:124__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:131__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-12-08 07:26:32:133__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:134__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:135__Transaction Amount: 3.5E-05
+callLog __ 2018-12-08 07:26:32:143__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:147__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:147__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:155__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:32:157__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:158__Transaction Type: receive
+callLog __ 2018-12-08 07:26:32:158__Transaction Amount: 0.001
+callLog __ 2018-12-08 07:26:32:166__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:170__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:170__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:180__Getting Wallet By Key: 37brQVtfN7dk7Qbukmawz5wonnKNQjFuHv
+callLog __ 2018-12-08 07:26:32:183__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:192__Getting Wallet By Key: 3HYj7YwMDvwPc31et3QauB6go55uoi4aCE
+callLog __ 2018-12-08 07:26:32:194__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:202__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:26:32:205__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:206__Transaction Type: receive
+callLog __ 2018-12-08 07:26:32:207__Transaction Amount: 0.0238182
+callLog __ 2018-12-08 07:26:32:221__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:224__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:224__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:231__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:26:32:233__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:234__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:236__Transaction Amount: 0.0125
+callLog __ 2018-12-08 07:26:32:244__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:248__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:249__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:262__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:32:265__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:275__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:32:277__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:278__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:279__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:26:32:290__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:295__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:295__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:303__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:32:306__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:326__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:26:32:329__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:330__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:331__Transaction Amount: 0.0026
+callLog __ 2018-12-08 07:26:32:364__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:379__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:380__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:395__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-08 07:26:32:399__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:410__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-08 07:26:32:412__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:413__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:413__Transaction Amount: 0.00125
+callLog __ 2018-12-08 07:26:32:423__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:426__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:427__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:436__Getting Wallet By Key: 39v3y9FchgDvTu2jwcicFffAhebaTW2EL6
+callLog __ 2018-12-08 07:26:32:438__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:446__Getting Wallet By Key: 39v3y9FchgDvTu2jwcicFffAhebaTW2EL6
+callLog __ 2018-12-08 07:26:32:448__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:449__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:449__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:26:32:457__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:461__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:462__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:469__Getting Wallet By Key: 3Qbxs3J4GKCZWaFCEeFjtMuK7jqB2qMgvB
+callLog __ 2018-12-08 07:26:32:471__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:26:32:478__Getting Wallet By Key: 3Qbxs3J4GKCZWaFCEeFjtMuK7jqB2qMgvB
+callLog __ 2018-12-08 07:26:32:480__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:26:32:481__Transaction Type: send
+callLog __ 2018-12-08 07:26:32:484__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:26:32:492__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:26:32:495__Updated User Wallet Sum
+callLog __ 2018-12-08 07:26:32:495__!!Service Completed!!
+callLog __ 2018-12-08 07:26:50:689__!!Service Started!!
+callLog __ 2018-12-08 07:26:50:987__Transaction Received from Db
+callLog __ 2018-12-08 07:26:51:723__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:26:51:724__Total Number of items to add 39
+callLog __ 2018-12-08 07:27:00:506__Update Transaction:131757fe6d7e4d20d96ecf3a7d48bf39fd4b675dda4c409ba00d4142c3791b46 Amount:0.00779664
+callLog __ 2018-12-08 07:29:59:855__!!Service Started!!
+callLog __ 2018-12-08 07:30:00:144__Transaction Received from Db
+callLog __ 2018-12-08 07:30:00:860__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:30:00:861__Total Number of items to add 39
+callLog __ 2018-12-08 07:30:11:186__Update Transaction:131757fe6d7e4d20d96ecf3a7d48bf39fd4b675dda4c409ba00d4142c3791b46 Amount:0.00779664
+callLog __ 2018-12-08 07:30:50:954__!!Service Started!!
+callLog __ 2018-12-08 07:30:51:200__Transaction Received from Db
+callLog __ 2018-12-08 07:30:51:941__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:30:51:945__Total Number of items to add 39
+callLog __ 2018-12-08 07:30:51:951__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:51:982__Getting Wallet By Key: 3CBG2PsaMwXNSYfc479ssiAUNpHbrMiveR
+callLog __ 2018-12-08 07:30:52:009__User Wallet Not Null, UID: 82 UserWalletId: 419
+callLog __ 2018-12-08 07:30:52:010__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:011__Transaction Amount: 0.00779664
+callLog __ 2018-12-08 07:30:52:029__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:034__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:035__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:047__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:047__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:054__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:055__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:077__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:078__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:091__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:091__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:099__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:100__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:107__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-12-08 07:30:52:109__User Wallet Not Null, UID: 26 UserWalletId: 215
+callLog __ 2018-12-08 07:30:52:109__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:110__Transaction Amount: 1E-05
+callLog __ 2018-12-08 07:30:52:125__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:129__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:130__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:137__Getting Wallet By Key: 3Pf16MKZ3iAH6hLRSUz2M9a9k5aCBijArE
+callLog __ 2018-12-08 07:30:52:138__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:146__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-12-08 07:30:52:149__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-12-08 07:30:52:149__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:150__Transaction Amount: 0.00021939
+callLog __ 2018-12-08 07:30:52:161__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:166__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:167__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:176__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:30:52:179__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:180__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:181__Transaction Amount: 0.00120206
+callLog __ 2018-12-08 07:30:52:195__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:199__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:200__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:207__Getting Wallet By Key: 3LDW6yGq22sES54Jn5oNZuXpkjRBy2UQoq
+callLog __ 2018-12-08 07:30:52:209__User Wallet Not Null, UID: 67 UserWalletId: 359
+callLog __ 2018-12-08 07:30:52:210__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:212__Transaction Amount: 0.00014548
+callLog __ 2018-12-08 07:30:52:219__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:223__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:224__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:233__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:30:52:236__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:239__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:239__Transaction Amount: 0.02118897
+callLog __ 2018-12-08 07:30:52:247__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:251__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:251__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:258__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:30:52:260__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:261__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:261__Transaction Amount: 0.01998897
+callLog __ 2018-12-08 07:30:52:268__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:272__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:274__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:281__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:30:52:281__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:287__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:288__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:295__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:297__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:298__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:299__Transaction Amount: 0.0012
+callLog __ 2018-12-08 07:30:52:306__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:310__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:311__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:318__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:320__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:321__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:321__Transaction Amount: 3E-05
+callLog __ 2018-12-08 07:30:52:329__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:332__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:333__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:339__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-12-08 07:30:52:341__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:341__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:342__Transaction Amount: 0.0028
+callLog __ 2018-12-08 07:30:52:349__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:353__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:354__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:361__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-12-08 07:30:52:363__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:370__Getting Wallet By Key: 37P4Bvo6tKkRsHukQNxtMxmp4rbsZ8SRr5
+callLog __ 2018-12-08 07:30:52:372__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:374__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:374__Transaction Amount: 0.003
+callLog __ 2018-12-08 07:30:52:384__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:389__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:390__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:401__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-12-08 07:30:52:403__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:404__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:404__Transaction Amount: 0.0005
+callLog __ 2018-12-08 07:30:52:412__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:416__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:417__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:424__Getting Wallet By Key: 1CHn8Xc5aiw4eD5FK4Yb4p9fLaE3Ctyvez
+callLog __ 2018-12-08 07:30:52:426__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:427__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:428__Transaction Amount: 5E-05
+callLog __ 2018-12-08 07:30:52:435__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:438__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:439__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:449__Getting Wallet By Key: 15RPsgfAR3MTNdi66thAPsUWKu1Vq6Hvkn
+callLog __ 2018-12-08 07:30:52:451__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:455__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:455__Transaction Amount: 4E-05
+callLog __ 2018-12-08 07:30:52:462__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:466__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:467__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:474__Getting Wallet By Key: 13f8mq7pgLenhsv4WuX5VUaJM4wdxD8SZC
+callLog __ 2018-12-08 07:30:52:476__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:476__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:477__Transaction Amount: 3.5E-05
+callLog __ 2018-12-08 07:30:52:484__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:488__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:490__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:497__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:30:52:499__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:500__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:501__Transaction Amount: 0.001
+callLog __ 2018-12-08 07:30:52:508__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:512__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:512__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:519__Getting Wallet By Key: 37brQVtfN7dk7Qbukmawz5wonnKNQjFuHv
+callLog __ 2018-12-08 07:30:52:521__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:528__Getting Wallet By Key: 3HYj7YwMDvwPc31et3QauB6go55uoi4aCE
+callLog __ 2018-12-08 07:30:52:530__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:537__Getting Wallet By Key: 3FWpNZvWy2UVWZcqNjFqZnuVDGADfRJBPC
+callLog __ 2018-12-08 07:30:52:539__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:541__Transaction Type: receive
+callLog __ 2018-12-08 07:30:52:541__Transaction Amount: 0.0238182
+callLog __ 2018-12-08 07:30:52:548__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:552__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:553__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:560__Getting Wallet By Key: 1JBsFahBmm7ft2ZrLkdK3uiRJtHwb3cTmA
+callLog __ 2018-12-08 07:30:52:562__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:564__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:564__Transaction Amount: 0.0125
+callLog __ 2018-12-08 07:30:52:571__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:575__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:575__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:582__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:30:52:584__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:592__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:30:52:594__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:594__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:595__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:30:52:601__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:606__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:606__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:615__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:30:52:617__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:627__Getting Wallet By Key: 3F4hL9cH3SZ7P4bw1cojrZ3mH4hZWUPqd6
+callLog __ 2018-12-08 07:30:52:629__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:630__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:630__Transaction Amount: 0.0026
+callLog __ 2018-12-08 07:30:52:637__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:643__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:643__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:651__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-08 07:30:52:653__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:660__Getting Wallet By Key: 3FWT5khqWyYiz5g5JXDKUHt7NTJLMB5JJf
+callLog __ 2018-12-08 07:30:52:663__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:664__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:664__Transaction Amount: 0.00125
+callLog __ 2018-12-08 07:30:52:671__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:676__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:677__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:684__Getting Wallet By Key: 39v3y9FchgDvTu2jwcicFffAhebaTW2EL6
+callLog __ 2018-12-08 07:30:52:686__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:693__Getting Wallet By Key: 39v3y9FchgDvTu2jwcicFffAhebaTW2EL6
+callLog __ 2018-12-08 07:30:52:695__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:696__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:696__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:30:52:703__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:707__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:707__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:713__Getting Wallet By Key: 3Qbxs3J4GKCZWaFCEeFjtMuK7jqB2qMgvB
+callLog __ 2018-12-08 07:30:52:715__Added to BTC Transactions: 
+callLog __ 2018-12-08 07:30:52:722__Getting Wallet By Key: 3Qbxs3J4GKCZWaFCEeFjtMuK7jqB2qMgvB
+callLog __ 2018-12-08 07:30:52:724__User Wallet Not Null, UID: 63 UserWalletId: 355
+callLog __ 2018-12-08 07:30:52:724__Transaction Type: send
+callLog __ 2018-12-08 07:30:52:728__Transaction Amount: 0.0025
+callLog __ 2018-12-08 07:30:52:735__Added to User Wallet Transactions
+callLog __ 2018-12-08 07:30:52:738__Updated User Wallet Sum
+callLog __ 2018-12-08 07:30:52:739__!!Service Completed!!
+callLog __ 2018-12-08 07:30:56:598__!!Service Started!!
+callLog __ 2018-12-08 07:30:56:907__Transaction Received from Db
+callLog __ 2018-12-08 07:30:57:642__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:30:57:643__Total Number of items to add 39
+callLog __ 2018-12-08 07:30:57:645__Update Transaction:131757fe6d7e4d20d96ecf3a7d48bf39fd4b675dda4c409ba00d4142c3791b46 Amount:0.00779664
+callLog __ 2018-12-08 07:30:57:650__Update Transaction:bb6312fa21d897cb02e1fc029fb186c7c3bb80bdd2129e9af196adcd6f1eee11 Amount:-7E-05
+callLog __ 2018-12-08 07:30:57:656__Update Transaction:606b285df13260de31e4079dbac0b4103993cc0c581c55fc0847e846401a4eb4 Amount:-7E-05
+callLog __ 2018-12-08 07:30:57:660__Update Transaction:c79af42fcb65aebf4d29b36fe234f60855054290a27c1dac9e7959d518958797 Amount:-1E-05
+callLog __ 2018-12-08 07:30:57:666__Update Transaction:d4015902efd62ec602ec294766f458a68d3842e10aac407b4ebfb0bb9dfb7d35 Amount:-1E-05
+callLog __ 2018-12-08 07:30:57:671__Update Transaction:437a3748e2cbdf51b1f182caa42892c68f42057b4af044c3de4e06b8471a4961 Amount:-1E-05
+callLog __ 2018-12-08 07:30:57:677__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:1E-05
+callLog __ 2018-12-08 07:30:57:681__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:-1E-05
+callLog __ 2018-12-08 07:30:57:684__Update Transaction:58ee77383988d2042ec172910f2c5078133ffb1bc833df9b8c315359db948bc5 Amount:0.00021939
+callLog __ 2018-12-08 07:30:57:686__Update Transaction:4aac934ac0a8835f502a80b75c5e65aee192ed4c985334e6673bba7af3693830 Amount:0.00120206
+callLog __ 2018-12-08 07:30:57:690__Update Transaction:519723d488fe0638ba0e021fcfc6abe2b35ba628134a0610d3837125840867d2 Amount:0.00014548
+callLog __ 2018-12-08 07:30:57:694__Update Transaction:5041233c2724a8e2a72ebaa9a5fc2dd7f9c964ef6f6bc2842f5ae9aeebf3734e Amount:0.02118897
+callLog __ 2018-12-08 07:30:57:697__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:0.01998897
+callLog __ 2018-12-08 07:30:57:700__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.01998897
+callLog __ 2018-12-08 07:30:57:703__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.00112991
+callLog __ 2018-12-08 07:30:57:707__Update Transaction:4ecfe6ee386d448b75a31c1a578ec9e2da11dece0512c1d0fb285a3c32df5852 Amount:-0.0012
+callLog __ 2018-12-08 07:30:57:710__Update Transaction:4cdcad5d8b4d99b4c3e0badb8cfb7c4e9e07b194b6c53be92230c0edb51644e1 Amount:-3E-05
+callLog __ 2018-12-08 07:30:57:810__Update Transaction:38e427bea4244b2e993f2e33197f6c97a1c26a343f63390a6307b6564e98a9c2 Amount:-0.0028
+callLog __ 2018-12-08 07:30:57:817__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:0.003
+callLog __ 2018-12-08 07:30:57:822__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:-0.003
+callLog __ 2018-12-08 07:30:57:825__Update Transaction:3f9a0fb75c0e4783f3622543e5c8f4797d16f806fcbc3b706275725039d956b2 Amount:-0.0005
+callLog __ 2018-12-08 07:30:57:829__Update Transaction:bfe1cded6ba1d48ff05f5d92ce970563e9def4268d44e14b3eff1aa5e69620a0 Amount:-5E-05
+callLog __ 2018-12-08 07:30:57:832__Update Transaction:c5ead789c88abc0b1ec1a8758227da32a8762613631a3ff84735e22da710ef72 Amount:-4E-05
+callLog __ 2018-12-08 07:30:57:835__Update Transaction:e661ab2132d0578644370a37240fe65e8c280f53a42bb3f754da41422d4c8a17 Amount:-3.5E-05
+callLog __ 2018-12-08 07:30:57:839__Update Transaction:d1ba2fce51de48866a42620f06aa9b418c900050797eb43b1ce1a4ee36666343 Amount:0.001
+callLog __ 2018-12-08 07:30:57:843__Update Transaction:87980d93f2cebfbd8fe356907c6c08410f5fa149554a694283cfd9cada8ef532 Amount:0.0006
+callLog __ 2018-12-08 07:30:57:846__Update Transaction:425b69ab35e3f084a3c0134a2e80af5ea217764be23ea72f2e30a574ab28c090 Amount:0.0004
+callLog __ 2018-12-08 07:30:57:851__Update Transaction:a0972bbef032605c98046a338be4e3a5056cf9c60053ac40f90e5d396bf8da56 Amount:0.0238182
+callLog __ 2018-12-08 07:30:57:855__Update Transaction:723d8c43487cdae81776d4904358fa1dd8bb9faaa0275380f3eb04c3af99bccb Amount:-0.0125
+callLog __ 2018-12-08 07:30:57:860__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:0.0025
+callLog __ 2018-12-08 07:30:57:864__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:-0.0025
+callLog __ 2018-12-08 07:30:57:868__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:0.0026
+callLog __ 2018-12-08 07:30:57:872__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:-0.0026
+callLog __ 2018-12-08 07:30:57:877__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:0.00125
+callLog __ 2018-12-08 07:30:57:881__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:-0.00125
+callLog __ 2018-12-08 07:30:57:885__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:0.0025
+callLog __ 2018-12-08 07:30:57:890__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:-0.0025
+callLog __ 2018-12-08 07:30:57:894__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:0.0025
+callLog __ 2018-12-08 07:30:57:899__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:-0.0025
+callLog __ 2018-12-08 07:30:57:904__!!Service Completed!!
+callLog __ 2018-12-08 07:32:59:741__!!Service Started!!
+callLog __ 2018-12-08 07:33:00:003__Transaction Received from Db
+callLog __ 2018-12-08 07:33:00:707__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:33:00:708__Total Number of items to add 39
+callLog __ 2018-12-08 07:33:00:711__Update Transaction:131757fe6d7e4d20d96ecf3a7d48bf39fd4b675dda4c409ba00d4142c3791b46 Amount:0.00779664
+callLog __ 2018-12-08 07:33:00:716__Update Transaction:bb6312fa21d897cb02e1fc029fb186c7c3bb80bdd2129e9af196adcd6f1eee11 Amount:-7E-05
+callLog __ 2018-12-08 07:33:00:719__Update Transaction:606b285df13260de31e4079dbac0b4103993cc0c581c55fc0847e846401a4eb4 Amount:-7E-05
+callLog __ 2018-12-08 07:33:00:722__Update Transaction:c79af42fcb65aebf4d29b36fe234f60855054290a27c1dac9e7959d518958797 Amount:-1E-05
+callLog __ 2018-12-08 07:33:00:724__Update Transaction:d4015902efd62ec602ec294766f458a68d3842e10aac407b4ebfb0bb9dfb7d35 Amount:-1E-05
+callLog __ 2018-12-08 07:33:00:728__Update Transaction:437a3748e2cbdf51b1f182caa42892c68f42057b4af044c3de4e06b8471a4961 Amount:-1E-05
+callLog __ 2018-12-08 07:33:00:731__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:1E-05
+callLog __ 2018-12-08 07:33:00:734__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:-1E-05
+callLog __ 2018-12-08 07:33:00:737__Update Transaction:58ee77383988d2042ec172910f2c5078133ffb1bc833df9b8c315359db948bc5 Amount:0.00021939
+callLog __ 2018-12-08 07:33:00:740__Update Transaction:4aac934ac0a8835f502a80b75c5e65aee192ed4c985334e6673bba7af3693830 Amount:0.00120206
+callLog __ 2018-12-08 07:33:00:743__Update Transaction:519723d488fe0638ba0e021fcfc6abe2b35ba628134a0610d3837125840867d2 Amount:0.00014548
+callLog __ 2018-12-08 07:33:00:747__Update Transaction:5041233c2724a8e2a72ebaa9a5fc2dd7f9c964ef6f6bc2842f5ae9aeebf3734e Amount:0.02118897
+callLog __ 2018-12-08 07:33:00:750__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:0.01998897
+callLog __ 2018-12-08 07:33:00:753__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.01998897
+callLog __ 2018-12-08 07:33:00:755__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.00112991
+callLog __ 2018-12-08 07:33:00:759__Update Transaction:4ecfe6ee386d448b75a31c1a578ec9e2da11dece0512c1d0fb285a3c32df5852 Amount:-0.0012
+callLog __ 2018-12-08 07:33:00:764__Update Transaction:4cdcad5d8b4d99b4c3e0badb8cfb7c4e9e07b194b6c53be92230c0edb51644e1 Amount:-3E-05
+callLog __ 2018-12-08 07:33:00:767__Update Transaction:38e427bea4244b2e993f2e33197f6c97a1c26a343f63390a6307b6564e98a9c2 Amount:-0.0028
+callLog __ 2018-12-08 07:33:00:770__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:0.003
+callLog __ 2018-12-08 07:33:00:773__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:-0.003
+callLog __ 2018-12-08 07:33:00:777__Update Transaction:3f9a0fb75c0e4783f3622543e5c8f4797d16f806fcbc3b706275725039d956b2 Amount:-0.0005
+callLog __ 2018-12-08 07:33:00:781__Update Transaction:bfe1cded6ba1d48ff05f5d92ce970563e9def4268d44e14b3eff1aa5e69620a0 Amount:-5E-05
+callLog __ 2018-12-08 07:33:00:785__Update Transaction:c5ead789c88abc0b1ec1a8758227da32a8762613631a3ff84735e22da710ef72 Amount:-4E-05
+callLog __ 2018-12-08 07:33:00:789__Update Transaction:e661ab2132d0578644370a37240fe65e8c280f53a42bb3f754da41422d4c8a17 Amount:-3.5E-05
+callLog __ 2018-12-08 07:33:00:794__Update Transaction:d1ba2fce51de48866a42620f06aa9b418c900050797eb43b1ce1a4ee36666343 Amount:0.001
+callLog __ 2018-12-08 07:33:00:799__Update Transaction:87980d93f2cebfbd8fe356907c6c08410f5fa149554a694283cfd9cada8ef532 Amount:0.0006
+callLog __ 2018-12-08 07:33:00:802__Update Transaction:425b69ab35e3f084a3c0134a2e80af5ea217764be23ea72f2e30a574ab28c090 Amount:0.0004
+callLog __ 2018-12-08 07:33:00:806__Update Transaction:a0972bbef032605c98046a338be4e3a5056cf9c60053ac40f90e5d396bf8da56 Amount:0.0238182
+callLog __ 2018-12-08 07:33:00:811__Update Transaction:723d8c43487cdae81776d4904358fa1dd8bb9faaa0275380f3eb04c3af99bccb Amount:-0.0125
+callLog __ 2018-12-08 07:33:00:814__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:0.0025
+callLog __ 2018-12-08 07:33:00:819__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:-0.0025
+callLog __ 2018-12-08 07:33:00:822__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:0.0026
+callLog __ 2018-12-08 07:33:00:826__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:-0.0026
+callLog __ 2018-12-08 07:33:00:830__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:0.00125
+callLog __ 2018-12-08 07:33:00:833__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:-0.00125
+callLog __ 2018-12-08 07:33:00:836__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:0.0025
+callLog __ 2018-12-08 07:33:00:840__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:-0.0025
+callLog __ 2018-12-08 07:33:00:844__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:0.0025
+callLog __ 2018-12-08 07:33:00:849__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:-0.0025
+callLog __ 2018-12-08 07:33:00:852__!!Service Completed!!
+callLog __ 2018-12-08 07:33:04:288__!!Service Started!!
+callLog __ 2018-12-08 07:33:04:708__Transaction Received from Db
+callLog __ 2018-12-08 07:33:05:462__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:33:05:465__Total Number of items to add 39
+callLog __ 2018-12-08 07:33:05:471__Update Transaction:131757fe6d7e4d20d96ecf3a7d48bf39fd4b675dda4c409ba00d4142c3791b46 Amount:0.00779664
+callLog __ 2018-12-08 07:33:05:480__Update Transaction:bb6312fa21d897cb02e1fc029fb186c7c3bb80bdd2129e9af196adcd6f1eee11 Amount:-7E-05
+callLog __ 2018-12-08 07:33:05:485__Update Transaction:606b285df13260de31e4079dbac0b4103993cc0c581c55fc0847e846401a4eb4 Amount:-7E-05
+callLog __ 2018-12-08 07:33:05:490__Update Transaction:c79af42fcb65aebf4d29b36fe234f60855054290a27c1dac9e7959d518958797 Amount:-1E-05
+callLog __ 2018-12-08 07:33:05:495__Update Transaction:d4015902efd62ec602ec294766f458a68d3842e10aac407b4ebfb0bb9dfb7d35 Amount:-1E-05
+callLog __ 2018-12-08 07:33:05:500__Update Transaction:437a3748e2cbdf51b1f182caa42892c68f42057b4af044c3de4e06b8471a4961 Amount:-1E-05
+callLog __ 2018-12-08 07:33:05:505__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:1E-05
+callLog __ 2018-12-08 07:33:05:512__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:-1E-05
+callLog __ 2018-12-08 07:33:05:517__Update Transaction:58ee77383988d2042ec172910f2c5078133ffb1bc833df9b8c315359db948bc5 Amount:0.00021939
+callLog __ 2018-12-08 07:33:05:522__Update Transaction:4aac934ac0a8835f502a80b75c5e65aee192ed4c985334e6673bba7af3693830 Amount:0.00120206
+callLog __ 2018-12-08 07:33:05:527__Update Transaction:519723d488fe0638ba0e021fcfc6abe2b35ba628134a0610d3837125840867d2 Amount:0.00014548
+callLog __ 2018-12-08 07:33:05:532__Update Transaction:5041233c2724a8e2a72ebaa9a5fc2dd7f9c964ef6f6bc2842f5ae9aeebf3734e Amount:0.02118897
+callLog __ 2018-12-08 07:33:05:535__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:0.01998897
+callLog __ 2018-12-08 07:33:05:539__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.01998897
+callLog __ 2018-12-08 07:33:05:543__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.00112991
+callLog __ 2018-12-08 07:33:05:547__Update Transaction:4ecfe6ee386d448b75a31c1a578ec9e2da11dece0512c1d0fb285a3c32df5852 Amount:-0.0012
+callLog __ 2018-12-08 07:33:05:551__Update Transaction:4cdcad5d8b4d99b4c3e0badb8cfb7c4e9e07b194b6c53be92230c0edb51644e1 Amount:-3E-05
+callLog __ 2018-12-08 07:33:05:557__Update Transaction:38e427bea4244b2e993f2e33197f6c97a1c26a343f63390a6307b6564e98a9c2 Amount:-0.0028
+callLog __ 2018-12-08 07:33:05:562__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:0.003
+callLog __ 2018-12-08 07:33:05:566__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:-0.003
+callLog __ 2018-12-08 07:33:05:571__Update Transaction:3f9a0fb75c0e4783f3622543e5c8f4797d16f806fcbc3b706275725039d956b2 Amount:-0.0005
+callLog __ 2018-12-08 07:33:05:577__Update Transaction:bfe1cded6ba1d48ff05f5d92ce970563e9def4268d44e14b3eff1aa5e69620a0 Amount:-5E-05
+callLog __ 2018-12-08 07:33:05:581__Update Transaction:c5ead789c88abc0b1ec1a8758227da32a8762613631a3ff84735e22da710ef72 Amount:-4E-05
+callLog __ 2018-12-08 07:33:05:586__Update Transaction:e661ab2132d0578644370a37240fe65e8c280f53a42bb3f754da41422d4c8a17 Amount:-3.5E-05
+callLog __ 2018-12-08 07:33:05:591__Update Transaction:d1ba2fce51de48866a42620f06aa9b418c900050797eb43b1ce1a4ee36666343 Amount:0.001
+callLog __ 2018-12-08 07:33:05:595__Update Transaction:87980d93f2cebfbd8fe356907c6c08410f5fa149554a694283cfd9cada8ef532 Amount:0.0006
+callLog __ 2018-12-08 07:33:05:601__Update Transaction:425b69ab35e3f084a3c0134a2e80af5ea217764be23ea72f2e30a574ab28c090 Amount:0.0004
+callLog __ 2018-12-08 07:33:05:606__Update Transaction:a0972bbef032605c98046a338be4e3a5056cf9c60053ac40f90e5d396bf8da56 Amount:0.0238182
+callLog __ 2018-12-08 07:33:05:611__Update Transaction:723d8c43487cdae81776d4904358fa1dd8bb9faaa0275380f3eb04c3af99bccb Amount:-0.0125
+callLog __ 2018-12-08 07:33:05:616__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:0.0025
+callLog __ 2018-12-08 07:33:05:621__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:-0.0025
+callLog __ 2018-12-08 07:33:05:627__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:0.0026
+callLog __ 2018-12-08 07:33:05:632__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:-0.0026
+callLog __ 2018-12-08 07:33:05:639__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:0.00125
+callLog __ 2018-12-08 07:33:05:645__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:-0.00125
+callLog __ 2018-12-08 07:33:05:651__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:0.0025
+callLog __ 2018-12-08 07:33:05:657__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:-0.0025
+callLog __ 2018-12-08 07:33:05:663__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:0.0025
+callLog __ 2018-12-08 07:33:05:669__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:-0.0025
+callLog __ 2018-12-08 07:33:05:675__!!Service Completed!!
+callLog __ 2018-12-08 07:33:28:175__!!Service Started!!
+callLog __ 2018-12-08 07:33:28:469__Transaction Received from Db
+callLog __ 2018-12-08 07:33:29:374__Transactions Received from Bitcoin Server
+callLog __ 2018-12-08 07:33:29:377__Total Number of items to add 39
+callLog __ 2018-12-08 07:33:29:382__Update Transaction:131757fe6d7e4d20d96ecf3a7d48bf39fd4b675dda4c409ba00d4142c3791b46 Amount:0.00779664
+callLog __ 2018-12-08 07:33:54:368__Update Transaction:bb6312fa21d897cb02e1fc029fb186c7c3bb80bdd2129e9af196adcd6f1eee11 Amount:-7E-05
+callLog __ 2018-12-08 07:35:35:788__Update Transaction:606b285df13260de31e4079dbac0b4103993cc0c581c55fc0847e846401a4eb4 Amount:-7E-05
+callLog __ 2018-12-08 07:35:35:792__Update Transaction:c79af42fcb65aebf4d29b36fe234f60855054290a27c1dac9e7959d518958797 Amount:-1E-05
+callLog __ 2018-12-08 07:35:35:796__Update Transaction:d4015902efd62ec602ec294766f458a68d3842e10aac407b4ebfb0bb9dfb7d35 Amount:-1E-05
+callLog __ 2018-12-08 07:35:35:799__Update Transaction:437a3748e2cbdf51b1f182caa42892c68f42057b4af044c3de4e06b8471a4961 Amount:-1E-05
+callLog __ 2018-12-08 07:35:35:802__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:1E-05
+callLog __ 2018-12-08 07:35:35:805__Update Transaction:d45347d3987c74b24d82a5260956e25d8897f78d9c1186581d54f565f74128b8 Amount:-1E-05
+callLog __ 2018-12-08 07:35:35:808__Update Transaction:58ee77383988d2042ec172910f2c5078133ffb1bc833df9b8c315359db948bc5 Amount:0.00021939
+callLog __ 2018-12-08 07:35:35:811__Update Transaction:4aac934ac0a8835f502a80b75c5e65aee192ed4c985334e6673bba7af3693830 Amount:0.00120206
+callLog __ 2018-12-08 07:35:35:814__Update Transaction:519723d488fe0638ba0e021fcfc6abe2b35ba628134a0610d3837125840867d2 Amount:0.00014548
+callLog __ 2018-12-08 07:35:35:816__Update Transaction:5041233c2724a8e2a72ebaa9a5fc2dd7f9c964ef6f6bc2842f5ae9aeebf3734e Amount:0.02118897
+callLog __ 2018-12-08 07:35:35:819__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:0.01998897
+callLog __ 2018-12-08 07:35:35:822__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.01998897
+callLog __ 2018-12-08 07:35:35:825__Update Transaction:2e3b210f6633e11c3db583f79eccf9798e4570acfc08ea84db32fc0effa63077 Amount:-0.00112991
+callLog __ 2018-12-08 07:35:35:827__Update Transaction:4ecfe6ee386d448b75a31c1a578ec9e2da11dece0512c1d0fb285a3c32df5852 Amount:-0.0012
+callLog __ 2018-12-08 07:35:35:830__Update Transaction:4cdcad5d8b4d99b4c3e0badb8cfb7c4e9e07b194b6c53be92230c0edb51644e1 Amount:-3E-05
+callLog __ 2018-12-08 07:35:35:833__Update Transaction:38e427bea4244b2e993f2e33197f6c97a1c26a343f63390a6307b6564e98a9c2 Amount:-0.0028
+callLog __ 2018-12-08 07:35:35:836__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:0.003
+callLog __ 2018-12-08 07:35:35:839__Update Transaction:8109f4db31b835a2540b79a475e35dd2c5baa9412125d6f0bf9477a8374e4104 Amount:-0.003
+callLog __ 2018-12-08 07:35:35:842__Update Transaction:3f9a0fb75c0e4783f3622543e5c8f4797d16f806fcbc3b706275725039d956b2 Amount:-0.0005
+callLog __ 2018-12-08 07:35:35:845__Update Transaction:bfe1cded6ba1d48ff05f5d92ce970563e9def4268d44e14b3eff1aa5e69620a0 Amount:-5E-05
+callLog __ 2018-12-08 07:35:35:847__Update Transaction:c5ead789c88abc0b1ec1a8758227da32a8762613631a3ff84735e22da710ef72 Amount:-4E-05
+callLog __ 2018-12-08 07:35:35:850__Update Transaction:e661ab2132d0578644370a37240fe65e8c280f53a42bb3f754da41422d4c8a17 Amount:-3.5E-05
+callLog __ 2018-12-08 07:35:35:853__Update Transaction:d1ba2fce51de48866a42620f06aa9b418c900050797eb43b1ce1a4ee36666343 Amount:0.001
+callLog __ 2018-12-08 07:35:35:857__Update Transaction:87980d93f2cebfbd8fe356907c6c08410f5fa149554a694283cfd9cada8ef532 Amount:0.0006
+callLog __ 2018-12-08 07:35:35:860__Update Transaction:425b69ab35e3f084a3c0134a2e80af5ea217764be23ea72f2e30a574ab28c090 Amount:0.0004
+callLog __ 2018-12-08 07:35:35:864__Update Transaction:a0972bbef032605c98046a338be4e3a5056cf9c60053ac40f90e5d396bf8da56 Amount:0.0238182
+callLog __ 2018-12-08 07:35:35:867__Update Transaction:723d8c43487cdae81776d4904358fa1dd8bb9faaa0275380f3eb04c3af99bccb Amount:-0.0125
+callLog __ 2018-12-08 07:35:35:871__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:0.0025
+callLog __ 2018-12-08 07:35:35:874__Update Transaction:0aeb3363d31d1ed5f6343f664ba33ce4c9e0d162132b8b081738d451677f6c62 Amount:-0.0025
+callLog __ 2018-12-08 07:35:35:877__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:0.0026
+callLog __ 2018-12-08 07:35:35:880__Update Transaction:e837b9db4e7f000897efec52fdf625300638be050554554e688c23f343e8e653 Amount:-0.0026
+callLog __ 2018-12-08 07:35:35:884__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:0.00125
+callLog __ 2018-12-08 07:35:35:888__Update Transaction:9939eca2a878e2d9c986bbf72d0987926a525fc99b0c21a0f038975f1a9fc6a9 Amount:-0.00125
+callLog __ 2018-12-08 07:35:35:891__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:0.0025
+callLog __ 2018-12-08 07:35:35:895__Update Transaction:53ba96c7f70bec5f53450421302dfacf1d37f4e7cffdccea27d4a9888a6299b6 Amount:-0.0025
+callLog __ 2018-12-08 07:35:35:899__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:0.0025
+callLog __ 2018-12-08 07:35:35:903__Update Transaction:c2f2a070424fa4fe3fb029a9fd97063b266e96bfa146bf8c3710828520adbd56 Amount:-0.0025
+callLog __ 2018-12-08 07:35:35:906__!!Service Completed!!

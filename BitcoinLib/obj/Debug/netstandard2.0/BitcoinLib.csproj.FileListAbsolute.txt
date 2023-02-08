@@ -1,0 +1,9 @@
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\bin\Debug\netstandard2.0\BitcoinLib.deps.json
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\bin\Debug\netstandard2.0\BitcoinLib.dll
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\bin\Debug\netstandard2.0\BitcoinLib.pdb
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\obj\Debug\netstandard2.0\BitcoinLib.csproj.CoreCompileInputs.cache
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\obj\Debug\netstandard2.0\BitcoinLib.AssemblyInfoInputs.cache
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\obj\Debug\netstandard2.0\BitcoinLib.AssemblyInfo.cs
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\obj\Debug\netstandard2.0\BitcoinLib.dll
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\obj\Debug\netstandard2.0\BitcoinLib.pdb
+E:\Projects\BitcoinService\BtcSync\BitcoinLib\obj\Debug\netstandard2.0\BitcoinLib.csprojAssemblyReference.cache
